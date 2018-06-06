@@ -24,3 +24,5 @@ SVM:
 New words:
 - tradeoff
 - sufficiently
+
+- pattern recognition
