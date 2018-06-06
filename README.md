@@ -14,3 +14,6 @@ SVM:
   two)
 - `b/||w||` ?
 - why 'the distance between these two hyperplanes is `2/||w||`' ?
+- mathematically prove that '`w*xi - b >= 1` if and only if the point
+  lies in the margin (so does `w*xi -b <= -1`)' also holds on higher
+  dimensions (than two)
