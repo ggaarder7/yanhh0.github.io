@@ -18,6 +18,7 @@ SVM:
   lies in the margin (so does `w*xi -b <= -1`)' also holds on higher
   dimensions (than two)
 - SVC
+- SVR
 
 New words:
 - tradeoff
