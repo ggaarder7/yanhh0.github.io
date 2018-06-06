@@ -26,6 +26,7 @@ New words:
 - sufficiently
 
 - pattern recognition
+- matplotlib: draw 3-dimension plots
 
 Quotes in [SVM without
 Tears][med.nyu.edu/chibi/sites/default/files/chibi/Final.pdf]:
