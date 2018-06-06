@@ -1,6 +1,6 @@
 ![](plot3d_iris.svg)
 
-```
+```python
 import pandas
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
