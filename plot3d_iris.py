@@ -28,4 +28,3 @@ if __name__ == '__main__':
     ax.set_zlabel('v3 Label')
 
     plt.show()
-    
