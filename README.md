@@ -24,6 +24,7 @@ SVM:
 New words:
 - tradeoff
 - sufficiently
+- Systolic BP?
 
 - pattern recognition
 - matplotlib: draw 3-dimension plots
