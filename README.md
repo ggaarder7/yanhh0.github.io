@@ -34,3 +34,8 @@ New words:
 Quotes in [SVM without
 Tears][med.nyu.edu/chibi/sites/default/files/chibi/Final.pdf]:
 - This tutorial is both *modest (it does not invent anything new)*
+
+ [SVM without
+ Tears][med.nyu.edu/chibi/sites/default/files/chibi/Final.pdf]:
+- L2-norm is a typical way to measure length of a vector; *other
+  methods to measure length also exist.* ??
