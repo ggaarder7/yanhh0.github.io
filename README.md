@@ -10,3 +10,7 @@ SVM:
 - Classification of images
 - image segmentation
 - recognize hand-written characters
+- mathematically prove that SVM also holds on higher dimensions (than
+  two)
+- `b/||w||` ?
+- why 'the distance between these two hyperplanes is `2/||w||`' ?
