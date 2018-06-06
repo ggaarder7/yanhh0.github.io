@@ -26,3 +26,7 @@ New words:
 - sufficiently
 
 - pattern recognition
+
+Quotes in [SVM without
+Tears][med.nyu.edu/chibi/sites/default/files/chibi/Final.pdf]:
+- This tutorial is both modest (it does not invent anything new)
