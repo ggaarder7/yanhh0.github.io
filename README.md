@@ -17,6 +17,7 @@ SVM:
 - mathematically prove that '`w*xi - b >= 1` if and only if the point
   lies in the margin (so does `w*xi -b <= -1`)' also holds on higher
   dimensions (than two)
+- SVC
 
 New words:
 - tradeoff
