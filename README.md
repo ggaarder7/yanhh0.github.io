@@ -19,6 +19,7 @@ SVM:
   dimensions (than two)
 - SVC
 - SVR
+- Kernel trick
 
 New words:
 - tradeoff
