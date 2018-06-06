@@ -1,4 +1,4 @@
-![][plot3d_iris.svg]
+![](plot3d_iris.svg)
 
 ```
 import pandas
