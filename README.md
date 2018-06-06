@@ -20,3 +20,4 @@ SVM:
 
 New words:
 - tradeoff
+- sufficiently
