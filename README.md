@@ -57,3 +57,6 @@ diff:
 - graphviz
 - xscreensaver-data-extra
   - xmatrix
+
+scipy
+- Why 'jac'?
