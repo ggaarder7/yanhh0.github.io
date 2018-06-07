@@ -25,9 +25,11 @@ New words:
 - Systolic BP?
 
 - pattern recognition
-- matplotlib: draw 3-dimension plots
-- what model the curve in `2018-06-06_20-33-21.png` right is
+- what model the curve in `2018-06-06_20-33-21.png` right is: special
+  plot regarding to the chosen kernel function
 - plot like `2018-06-06_20-33-21.png` right
+
+- QR Code
 
 Quotes in [SVM without
 Tears][med.nyu.edu/chibi/sites/default/files/chibi/Final.pdf]:
