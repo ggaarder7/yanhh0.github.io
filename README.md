@@ -7,6 +7,7 @@ My Blog
 [ ] 2018-04-05 Render Equations in Markdown to MathML
 
 SVM:
+- Quadratic optimization
 - Classification of images
 - image segmentation
 - recognize hand-written characters
