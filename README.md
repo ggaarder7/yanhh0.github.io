@@ -57,3 +57,5 @@ np:
   - DotA
 
 - graphviz
+- xscreensaver-data-extra
+  - xmatrix
