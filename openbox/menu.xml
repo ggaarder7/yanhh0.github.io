@@ -30,7 +30,7 @@
   </menu>
   <separator />
   <menu id="keybinds" label="Keybinds">
-    <separator label="W+t...lxterminal"/>
+    <separator label="&lt;Super>t...lxterminal"/>
     <item label="and so on...">
     </item>
   </menu>
