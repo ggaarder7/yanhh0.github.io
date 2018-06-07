@@ -45,3 +45,15 @@ diff:
 
 np:
 - meshgrid
+
+- bsdgames
+- dwarf fortress
+- GTA
+- Quake
+- COD
+- Half Life
+  - CS
+- War3
+  - DotA
+
+- graphviz
