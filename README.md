@@ -43,9 +43,6 @@ Tears][med.nyu.edu/chibi/sites/default/files/chibi/Final.pdf]:
 diff:
 - Hunt–McIlroy algorithm
 
-np:
-- meshgrid
-
 - bsdgames
 - dwarf fortress
 - GTA
