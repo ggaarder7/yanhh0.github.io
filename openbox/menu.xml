@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+<menu id="desktop-app-menu"
+      label="Applications"
+      execute="openbox-menu" />
+<menu id="system-menu" label="Preferences">
+  <menu id="obconf" label="Configure Desktop">
+    <item label="Reconfigure Openbox">
+      <action name="Reconfigure" />
+    </item>
+    <item label="Lxappearance">
+      <action name="Execute">
+        <command>lxappearance</command>
+        <startupnotify><enabled>yes</enabled></startupnotify>
+      </action>
+    </item>
+    <item label="Configure Openbox ">
+      <action name="Execute">
+        <command>obconf</command>
+        <startupnotify><enabled>yes</enabled></startupnotify>
+      </action>
+    </item>
+    <item label="Edit Keybinds etc">
+      <action name="Execute">
+        <command>leafpad ~/.config/openbox/lxde-rc.xml</command>
+        <startupnotify><enabled>yes</enabled></startupnotify>
+      </action>
+    </item>
+    <item label="Edit Menu">
+      <action name="Execute">
+        <command>leafpad ~/.config/openbox/menu.xml</command>
+        <startupnotify><enabled>yes</enabled></startupnotify>
+      </action>
+    </item>
+    <item label="Edit Autostart">
+      <action name="Execute">
+        <command>leafpad ~/.config/lxsession/LXDE/autostart</command>
+        <startupnotify><enabled>yes</enabled></startupnotify>
+      </action>
+    </item>
+  </menu>
+  <separator />
+    <item label="Open Screenshot Dialog">
+    <action name="Execute">
+      <command>/opt/porteus-scripts/lxde/gtk-scrot</command>
+    </action>
+  </item>
+    <item label="Take a Screenshot Now">
+    <action name="Execute">
+      <command>/opt/porteus-scripts/lxde/gtk-scrot -s</command>
+    </action>
+  </item>
+  <separator />
+    <item label="XKill">
+    <action name="Execute">
+      <command>xkill</command>
+    </action>
+  </item>
+  <separator />
+  <menu id="keybinds" label="Keybinds">
+    <separator label="W+f...file manager"/>
+    <separator label="W+w...firefox"/>
+    <separator label="W+e...leafpad"/>
+    <separator label="W+t...lxterminal"/>
+    <separator label="W+a...toggle maximize"/>
+    <item label="and so on...">
+    </item>
+  </menu>
+</menu>
+
+<menu id="root-menu" label="Openbox 3"> 
+  <separator label="Porteus 2.1"/>
+  <separator />
+  <item label="File Manager">
+    <action name="Execute">
+      <command>/opt/porteus-scripts/xorg/fmanager ~/</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Terminal">
+    <action name="Execute">
+      <command>/opt/porteus-scripts/xorg/terminal</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Web Browser">
+    <action name="Execute">
+      <command>/opt/porteus-scripts/xorg/browser</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <menu execute="/opt/porteus-scripts/lxde/pipemenus/obpipemenu-places" id="pipe" label="GoTo.."/>
+  <separator />
+  <menu id="desktop-app-menu" />
+  <separator />
+  <menu id="system-menu"/>
+  <separator />
+  <item label="Exit">
+    <action name="Execute">
+      <execute>lxde-logout</execute>
+    </action>
+  </item>
+</menu>
+
+</openbox_menu>
