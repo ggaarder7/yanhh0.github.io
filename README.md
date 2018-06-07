@@ -39,3 +39,6 @@ Tears][med.nyu.edu/chibi/sites/default/files/chibi/Final.pdf]:
  Tears][med.nyu.edu/chibi/sites/default/files/chibi/Final.pdf]:
 - L2-norm is a typical way to measure length of a vector; *other
   methods to measure length also exist.* ??
+
+diff:
+- Hunt–McIlroy algorithm
