@@ -7,7 +7,7 @@
     <screen_edge_strength>20</screen_edge_strength>
   </resistance>
   <focus>
-    <focusNew>no</focusNew>
+    <focusNew>yes</focusNew>
     <!-- always try to focus new windows when they appear. other rules do
        apply -->
     <followMouse>no</followMouse>
@@ -37,7 +37,7 @@
     <primaryMonitor/>
   </placement>
   <theme>
-    <name>Artwiz-boxed</name>
+    <name>Nightmare-01</name>
     <titleLayout>L</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -276,31 +276,7 @@
         <desktop>yes</desktop>
       </action>
     </keybind>
-    <!-- Keybind for dmenu -->
-    <keybind key="A-F3">
-      <action name="Execute">
-        <command>/usr/bin/dmenu-bind.sh</command>
-      </action>
-    </keybind>
     <!-- Keybindings for running applications -->
-    <keybind key="W-e">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>PCManFM</name>
-        </startupnotify>
-        <command>pcmanfm</command>
-      </action>
-    </keybind>
-    <keybind key="W-f">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>filemanager</name>
-        </startupnotify>
-        <command>pcmanfm</command>
-      </action>
-    </keybind>
     <keybind key="W-t">
       <action name="Execute">
         <startupnotify>
@@ -308,60 +284,6 @@
           <name>Terminal</name>
         </startupnotify>
         <command>lxterminal</command>
-      </action>
-    </keybind>
-    <keybind key="W-w">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>Web Browser</name>
-        </startupnotify>
-        <command>/opt/porteus-scripts/xorg/browser</command>
-      </action>
-    </keybind>
-    <keybind key="W-l">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>Lock screen</name>
-        </startupnotify>
-        <command>lxlock</command>
-      </action>
-    </keybind>
-    <keybind key="W-e">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>Editor</name>
-        </startupnotify>
-        <command>leafpad</command>
-      </action>
-    </keybind>
-    <keybind key="W-m">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>Musicplayer</name>
-        </startupnotify>
-        <command>audacious</command>
-      </action>
-    </keybind>
-    <keybind key="W-h">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>taskmanager</name>
-        </startupnotify>
-        <command>lxtask</command>
-      </action>
-    </keybind>
-    <keybind key="W-v">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>Volume</name>
-        </startupnotify>
-        <command>lxterminal -e alsamixer</command>
       </action>
     </keybind>
     <keybind key="W-x">
@@ -373,54 +295,10 @@
         <command>lxde-logout</command>
       </action>
     </keybind>
-    <keybind key="W-A">
-      <action name="Abiword">
-        <menu>abiword</menu>
-      </action>
-    </keybind>
-    <!--keybindings for LXPanel -->
-    <keybind key="W-r">
-      <action name="Execute">
-        <command>lxpanelctl run</command>
-      </action>
-    </keybind>
-    <keybind key="A-F2">
-      <action name="Execute">
-        <command>lxpanelctl run</command>
-      </action>
-    </keybind>
-    <keybind key="C-Escape">
-      <action name="Execute">
-        <command>lxpanelctl menu</command>
-      </action>
-    </keybind>
-    <keybind key="F11">
-      <action name="ToggleFullscreen"/>
-    </keybind>
     <!-- Launch Task Manager with Ctrl+Alt+Del -->
     <keybind key="A-C-Delete">
       <action name="Execute">
         <command>lxtask</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioLowerVolume">
-      <action name="Execute">
-        <command>/opt/porteus-scripts/lxde/pxf-sound down</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioRaiseVolume">
-      <action name="Execute">
-        <command>/opt/porteus-scripts/lxde/pxf-sound up</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioMute">
-      <action name="Execute">
-        <command>/opt/porteus-scripts/lxde/pxf-sound toggle</command>
-      </action>
-    </keybind>
-    <keybind key="Print">
-      <action name="Execute">
-        <command>/opt/porteus-scripts/lxde/gtk-scrot -s</command>
       </action>
     </keybind>
   </keyboard>
