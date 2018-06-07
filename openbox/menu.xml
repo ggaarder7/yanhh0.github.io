@@ -9,18 +9,6 @@
     <item label="Reconfigure Openbox">
       <action name="Reconfigure" />
     </item>
-    <item label="Lxappearance">
-      <action name="Execute">
-        <command>lxappearance</command>
-        <startupnotify><enabled>yes</enabled></startupnotify>
-      </action>
-    </item>
-    <item label="Configure Openbox ">
-      <action name="Execute">
-        <command>obconf</command>
-        <startupnotify><enabled>yes</enabled></startupnotify>
-      </action>
-    </item>
     <item label="Edit Keybinds etc">
       <action name="Execute">
         <command>emacs ~/.config/openbox/lxde-rc.xml</command>
@@ -50,8 +38,6 @@
 
 <menu id="root-menu" label="Openbox 3"> 
   <separator label="Debian"/>
-  <separator />
-  <menu execute="/opt/porteus-scripts/lxde/pipemenus/obpipemenu-places" id="pipe" label="GoTo.."/>
   <separator />
   <menu id="desktop-app-menu" />
   <separator />
