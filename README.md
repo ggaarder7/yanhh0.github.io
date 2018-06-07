@@ -61,3 +61,4 @@ diff:
 scipy
 - Why 'jac'?
 - `opt = {'disp':False}`: 'disp'?
+- SLSQP?
