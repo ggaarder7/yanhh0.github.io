@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # 2018-05-26 Forked from E:\01\FROM_SANDISK_15G\聽\work\sort\ver\
 # Huawei VNS-AL00 Screenshots Sorter.v3.py
 #
