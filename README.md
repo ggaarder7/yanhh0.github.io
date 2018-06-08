@@ -54,6 +54,9 @@ SVM:
 - SVR
 - Kernel trick
 
+Projects just for fun:
+- korean-names
+
 New words:
 - tradeoff
 - sufficiently
