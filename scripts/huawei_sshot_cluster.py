@@ -35,7 +35,10 @@ def work():
             try:
                 os.rename(j, target)
             except FileExistsError:
-                for suffix in itertools.count(2):
+                # generates 2, 3, 4, 5, ... for suffix
+                suffix_generator = itertools.count(2)
+
+                for suffix in suffix_generator:
                     try:
                         target2 = fnamesfx(target, suffix)
                         os.rename(j, target2)
