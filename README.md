@@ -54,6 +54,9 @@ SVM:
 - SVR
 - Kernel trick
 
+Projects for use but not urgent:
+- Shuangpin + Cantonese
+
 Projects just for fun:
 - korean-names
 
