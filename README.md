@@ -15,13 +15,16 @@ People like me:
 [ ] 2018-04-05 Render Equations in Markdown to MathML
 
 Download:
-- sources of softwares/website I use
+- sources & documents of softwares/website I use
   - linux
   - x
     - openbox
     - lxde
-  - python3
-    - scikit-learn
+  - development
+    - languages
+      - python3
+        - scikit-learn
+    - git
   - wikipedia
     - style
     - edit box
