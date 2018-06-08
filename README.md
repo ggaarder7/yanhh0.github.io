@@ -57,6 +57,8 @@ SVM:
 
 Project a bit essential:
 - Emacs + Fcitx
+- edit old blogs (cnblogs) and put on github.io
+- minerva
 
 Projects useful but not urgent:
 - Shuangpin + Cantonese
@@ -73,6 +75,10 @@ Projects useful but not urgent:
   - 路透社（英国） Reuter's News Agency Reuter
   - 共同社（日本） Kyodo　News services Kyodo
   - CNN
+- Cloud Music Playlist fetch
+  - Android
+- Zhihu bookmarks exporter
+  - Android: Search
 
 Projects just for fun:
 - korean-names
