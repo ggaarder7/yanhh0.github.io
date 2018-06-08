@@ -9,6 +9,7 @@ People like me:
 - Ieetone
 - ZWC
 - Xie DL
+- Fabrice Bellard
 
 [ ] 2018-04-05 View Raw/History: Link to glog repo
 [ ] 2018-04-05 Render Equations in Markdown to MathML
@@ -57,7 +58,12 @@ SVM:
 Projects useful but not urgent:
 - Shuangpin + Cantonese
 - Subscribe + keep previous issues + download previous issues
-  - 广州日报
+  - 新华社
+  - 美联社（美国） Associated Press AP
+  - 法新社（法国）　Agency France Press AFP
+  - 塔斯社（俄国） Tass
+  - 路透社（英国） Reuter's News Agency Reuter
+  - 共同社（日本） Kyodo　News services Kyodo
   - CNN
 
 Projects just for fun:
