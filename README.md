@@ -74,6 +74,9 @@ Projects useful but not urgent:
 Projects just for fun:
 - korean-names
 
+Maths just for fun:
+- Euler_characteristic
+
 New words:
 - tradeoff
 - sufficiently
