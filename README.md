@@ -57,7 +57,8 @@ SVM:
 
 Projects useful but not urgent:
 - Shuangpin + Cantonese
-- Subscribe + keep previous issues + download previous issues
+- Subscribe + keep previous issues + download previous issue
+  - [newspapers](newspapers.md)
   - 新华社
   - 美联社（美国） Associated Press AP
   - 法新社（法国）　Agency France Press AFP
