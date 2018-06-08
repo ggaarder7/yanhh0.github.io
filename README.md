@@ -7,13 +7,18 @@ My Blog
 [ ] 2018-04-05 Render Equations in Markdown to MathML
 
 Download:
-- sources of softwares I use
+- sources of softwares/website I use
   - linux
   - x
     - openbox
     - lxde
   - python3
     - scikit-learn
+  - wikipedia
+    - style
+    - edit box
+      - visual
+        - visual latex edit
 
 SVM:
 - how to get `b`?????
