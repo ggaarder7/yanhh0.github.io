@@ -55,6 +55,9 @@ SVM:
 - SVR
 - Kernel trick
 
+Project a bit essential:
+- Emacs + Fcitx
+
 Projects useful but not urgent:
 - Shuangpin + Cantonese
 - fcitx + word corpus (dict)
@@ -76,6 +79,10 @@ Projects just for fun:
 
 Maths just for fun:
 - Euler_characteristic
+
+Learn just for fun:
+- Cube
+- 腹语
 
 New words:
 - tradeoff
