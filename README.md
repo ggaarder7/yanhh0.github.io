@@ -26,6 +26,18 @@ Download:
     - edit box
       - visual
         - visual latex edit
+  - input
+    - fcitx
+      - fcitx-pinyin
+        - Shuangpin
+      - fcitx-table-jyutping
+      - Jp: fcitx-mozc
+      - Ko: fcitx-hangul
+
+Input methods
+- fcitx-table-jyutping
+- Jp: fcitx-mozc
+- Ko: fcitx-hangul
 
 SVM:
 - how to get `b`?????
