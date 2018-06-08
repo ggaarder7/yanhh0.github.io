@@ -3,6 +3,13 @@ My Blog
 
 ## Wish List
 
+People like me:
+- LPR
+- CMS
+- Ieetone
+- ZWC
+- Xie DL
+
 [ ] 2018-04-05 View Raw/History: Link to glog repo
 [ ] 2018-04-05 Render Equations in Markdown to MathML
 
