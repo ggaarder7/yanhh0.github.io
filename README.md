@@ -25,6 +25,7 @@ Download:
       - python3
         - scikit-learn
     - git
+      - https://git-scm.com/book
   - wikipedia
     - style
     - edit box
