@@ -59,8 +59,30 @@ diff:
 - xscreensaver-data-extra
   - xmatrix
 
-scipy
+# scipy
 - Why 'jac'?
 - `opt = {'disp':False}`: 'disp'?
 - SLSQP?
 - clf?
+
+## svm.coef_?
+
+Use the source luke!
+
+![How can I know how to interpret the output coefficients (`coefs_`) from the model sklearn.svm.LinearSVC()? - Data Science Stack Exchange](https://datascience.stackexchange.com/questions/17970/how-can-i-know-how-to-interpret-the-output-coefficients-coefs-from-the-mode?newreg=ea4f8bf6fae44c458278877c84fad7d8)
+
+
+
+> Here's one (admittedly hard) way.
+>
+> If you really want to understand the low-level details, you can always work through the source code. For example, we can see that the LinearSVC fit method calls _fit_liblinear. That calls train_wrap in liblinear, which gets everything ready to call into the C++ function train.
+>
+> So train in linear.cpp is where the heavy lifting begins. Note that the w member of the model struct in the train function gets mapped back to coef_ in Python.
+>
+> Once you understand exactly what the underlying train function does, it should be clear exactly what coef_ means and why we draw the lines that way.
+>
+> While this can be a little laborious, once you get used to doing things this way, you will really understand how everything works from top to bottom.
+
+author: jncraton
+
+*once you get used to doing things this way, you will really understand how everything works from top to bottom.*
