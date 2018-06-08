@@ -34,6 +34,11 @@ Download:
       - fcitx-table-jyutping
       - Jp: fcitx-mozc
       - Ko: fcitx-hangul
+- websites
+  - Wikis
+    - wikipedia
+    - debian wiki
+    - arch wiki
 
 Input methods
 - fcitx-table-jyutping
