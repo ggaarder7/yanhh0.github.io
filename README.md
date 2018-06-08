@@ -57,6 +57,10 @@ SVM:
 
 Projects useful but not urgent:
 - Shuangpin + Cantonese
+- fcitx + word corpus (dict)
+  - Chinese
+  - Japanese
+  - Korean
 - Subscribe + keep previous issues + download previous issue
   - [newspapers](newspapers.md)
   - 新华社
