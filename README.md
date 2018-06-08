@@ -6,6 +6,15 @@ My Blog
 [ ] 2018-04-05 View Raw/History: Link to glog repo
 [ ] 2018-04-05 Render Equations in Markdown to MathML
 
+Download:
+- sources of softwares I use
+  - linux
+  - x
+    - openbox
+    - lxde
+  - python3
+    - scikit-learn
+
 SVM:
 - how to get `b`?????
 - Quadratic optimization
