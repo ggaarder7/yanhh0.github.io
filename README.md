@@ -54,8 +54,11 @@ SVM:
 - SVR
 - Kernel trick
 
-Projects for use but not urgent:
+Projects useful but not urgent:
 - Shuangpin + Cantonese
+- Subscribe + keep previous issues + download previous issues
+  - 广州日报
+  - CNN
 
 Projects just for fun:
 - korean-names
@@ -125,3 +128,8 @@ Use the source luke!
 author: jncraton
 
 *once you get used to doing things this way, you will really understand how everything works from top to bottom.*
+
+
+# Thoughts
+- If I have *mine* things to share, don't share news, unless there's a
+  really important one - my friends will be annoyed if I share too much.
