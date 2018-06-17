@@ -15,6 +15,9 @@ People like me:
 [ ] 2018-04-05 Render Equations in Markdown to MathML
 
 Download:
+- books
+  - 人教版电子课本 http://www.dzkbw.com/books/rjb/
+
 - sources & documents of softwares/website I use
   - linux
   - x
