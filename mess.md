@@ -14,7 +14,23 @@ People like me:
 [ ] 2018-04-05 View Raw/History: Link to glog repo
 [ ] 2018-04-05 Render Equations in Markdown to MathML
 
+Add to Kindle:
+- Minerva
+- areason.org
+- HLA 2018 spring summer
+- 宫崎骏简笔画
+- earthonline
+- 2ch
+- a岛
+- old downloaded webpages
+- ptt
+- scp
+- 报纸
+- 爷爷的书
+
 Download:
+- 云音乐视频
+
 - books
   - 人教版电子课本 http://www.dzkbw.com/books/rjb/
 
