@@ -1,4 +1,4 @@
-print(' '.join(reversed(list(input().split()))))
+print(*reversed(input().split()))
 /**************************************************************
     Problem: 1222
     User: 20160748
