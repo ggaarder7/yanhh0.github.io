@@ -1,10 +1,13 @@
 #+TITLE:  Cheatsheet
 
+* apps
+
+GIDOT TYPESETTER
+
 * learn new languages
 
 Code documentation written as code: [[Learn X in Y
 minutes][https://learnxinyminutes.com/]]
-
 
 * HTML Entities
 
