@@ -14,6 +14,13 @@
 - 几米的绘本
   - 向左走向右走
 
+# What's Being Done
+
+- NetEase Cloud Music Tracker
+  - Python
+  - Android
+- Handwritten Signature Generator
+
 # 正在学的/练的
 
 弹唱：
