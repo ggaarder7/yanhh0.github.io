@@ -32,4 +32,30 @@ apt-get install tesseract-ocr
 [[http://ehneilsen.net/notebook/orgExamples/org-examples.html]]
 [[https://orgmode.org/org.html][The Org Manual]]
 
-| Just draw tables | Create tables |
+| Just draw tables                  | create tables |
+| [[link][description]] or [[link]] | hyperlink     |
+| ----- or more                     | separation line |
+
+*** footnotes
+#+BEGIN_SRC org
+The Org homepage[fn:1] now looks a lot better than it used to.
+...
+[fn:1] The link is: https://orgmode.org
+#+END_SRC
+
+
+[fn:name]
+
+    A named footnote reference, where name is a unique label word, or,
+    for simplicity of automatic creation, a number.
+
+[fn::This is the inline definition of this footnote]
+
+    A LaTeX-like anonymous footnote where the definition is given
+    directly at the reference point.
+
+[fn:name:a definition]
+
+    An inline definition of a footnote, which also specifies a name
+    for the note. Since Org allows multiple references to the same
+    note, you can then use [fn:name] to create additional references.
