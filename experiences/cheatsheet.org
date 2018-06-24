@@ -16,7 +16,10 @@ minutes][https://learnxinyminutes.com/]]
 | '       | &apos; |
 
 * Tesseract
-`apt-get install tesseract-ocr`
+
+#+BEGIN_SRC sh
+apt-get install tesseract-ocr
+#+END_SRC
 
 * Emacs
 
