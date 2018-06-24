@@ -18,3 +18,9 @@
 
 弹唱：
 - 如果你冷
+- Nothing's Gonna Change My Love For You
+- Pieces in My Fair Lady
+
+Piano:
+- Goldberg Variation: Aria
+- Chopin: 2 Waltzes, Op. posth. 69: No. 2 in B Minor
