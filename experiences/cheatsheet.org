@@ -1,6 +1,12 @@
-# Cheatsheet
+#+TITLE:  Cheatsheet
 
-## HTML Entities
+* learn new languages
+
+Code documentation written as code: [[Learn X in Y
+minutes][https://learnxinyminutes.com/]]
+
+
+* HTML Entities
 
 | (space) | &nbsp; |
 | <       | &lt;   |
@@ -9,15 +15,18 @@
 | "       | &quot; |
 | '       | &apos; |
 
-## Tesseract
+* Tesseract
 `apt-get install tesseract-ocr`
 
-## Emacs
+* Emacs
 
-### Packages
+** Packages
 
 | Draw Table | org-mode |
 
-#### org-mode
+** org-mode
+
+[[http://ehneilsen.net/notebook/orgExamples/org-examples.html]]
+[[https://orgmode.org/org.html][The Org Manual]]
 
 | Just draw tables | Create tables |
