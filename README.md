@@ -20,14 +20,5 @@
   - Python
   - Android
 - Handwritten Signature Generator
-
-# 正在学的/练的
-
-弹唱：
-- 如果你冷
-- Nothing's Gonna Change My Love For You
-- Pieces in My Fair Lady
-
-Piano:
-- Goldberg Variation: Aria
-- Chopin: 2 Waltzes, Op. posth. 69: No. 2 in B Minor
+- Kindle (mobi) 繁竖明体转换器
+- 郭同学的网站
