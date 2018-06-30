@@ -171,7 +171,7 @@ print_hi('Tom')
 {% endhighlight %}
 ```
 
-*yanhh's note* according the following (YAML Front Matter), we don't
+*yanhh's note* According the following (YAML Front Matter), we don't
 have to specify the date manually since it can be guessed from the
 filename. However the `index.md` file has no date in its filename, so
 if its layout will fail to get `post.date`.
