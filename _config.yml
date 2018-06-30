@@ -12,6 +12,8 @@ collections_dir: blog
 collections:
   edits:
     output: true
+  updatings:
+    output: true
 
 # SNS settings
 weibo_username: 午后曳航hh
