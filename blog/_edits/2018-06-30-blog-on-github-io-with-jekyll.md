@@ -85,6 +85,8 @@ the old process.
 
 To update: ```gem update jekyll```
 
+*yanhh's note* To update all gems: `gem update`
+
 To upgrade to latest Rubygems, run: ```gem update --system```
 
 # Writing posts
