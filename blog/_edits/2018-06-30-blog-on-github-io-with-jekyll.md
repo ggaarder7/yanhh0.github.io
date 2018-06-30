@@ -48,7 +48,9 @@ currently-running shell.
 ```
 export GEM_HOME=$HOME/gem
 export PATH=$HOME/gem/bin:$PATH
-````
+```
+
+The same `jekyll new` one in `/tmp`.
 
 ------------------------------------------------------------------------
 
