@@ -5,7 +5,6 @@ email: yanhh0@163.com
 description: >
   Chinese Student, Grade Eleven
   Computer Science, Mathematics, Arts, and More
-  Looking for Universities
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://yanhh0.github.io" # the base hostname & protocol for your site
 
