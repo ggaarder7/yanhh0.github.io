@@ -1,3 +1,7 @@
+---
+title: Export Chrome History
+---
+
 Grab `~/.config/google-chrome/History`, and `sqlite3 History`:
 
 ```sqlite
