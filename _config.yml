@@ -12,7 +12,7 @@ url: "http://yanhh0.github.io" # the base hostname & protocol for your site
 
 collections_dir: blog
 collections:
-  _edit:
+  _edits:
     output: true
 
 # SNS settings
