@@ -43,8 +43,12 @@ currently-running shell.
 
 ------------------------------------------------------------------------
 
-*yanhh's note* however it doesn't work without the `s` in `gems`: `export
-PATH=$HOME/gem/bin:$PATH`
+*yanhh's note* it doesn't work without the `s` in `gems` like:
+
+```
+export GEM_HOME=$HOME/gem
+export PATH=$HOME/gem/bin:$PATH
+````
 
 ------------------------------------------------------------------------
 
