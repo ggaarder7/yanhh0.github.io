@@ -3,6 +3,33 @@ title: Blogging on Github.io with Jekyll
 tags: [ blog, github.io, jekyll ]
 ---
 
+# [Quick-start][quick-start]
+
+[quick-start]: https://jekyllrb.com/docs/quickstart/
+
+```
+# Install Jekyll and Bundler gems through RubyGems
+gem install jekyll bundler
+
+# Create a new Jekyll site at ./myblog
+jekyll new myblog
+
+# Change into your new directory
+cd myblog
+
+# Build the site on the preview server
+bundle exec jekyll serve
+
+# Now browse to http://localhost:4000
+```
+
+To install the Jekyll site into the directory you’re currently in, run
+`jekyll new .` If the existing directory isn’t empty, you can pass the
+`--force` option with `jekyll new . --force`.
+
+*yanhh's note* I ran `jekyll new . --force` in my `github.io` folder
+and used `git diff` to merge the changes.
+
 # [Writing posts][writing-posts]
 
 [writing-posts]: https://jekyllrb.com/docs/posts/
