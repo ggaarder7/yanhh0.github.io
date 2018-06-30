@@ -45,8 +45,39 @@ To install the Jekyll site into the directory you’re currently in, run
 *yanhh's note* I ran `jekyll new . --force` in my `github.io` folder
 and used `git diff` to merge the changes.
 
-*yanhh's note* when things went wrong, we can use `jekyll serve
---verbose` to see which file caused the errors.
+*yanhh's note* Use `--incremental` to enable incremental build.
+
+*yanhh's note* When things went wrong, we can use `jekyll serve
+--verbose` to see which file caused the errors, like:
+
+```
+$ jekyll serve --verbose
+  Logging at level: debug
+Configuration file: /home/yanhh/home/mine/projects/2018/yanhh0.github.io/_config.yml
+         Requiring: kramdown
+            Source: /home/yanhh/home/mine/projects/2018/yanhh0.github.io
+       Destination: /home/yanhh/home/mine/projects/2018/yanhh0.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+         Rendering: about.md
+  Pre-Render Hooks: about.md
+  Rendering Liquid: about.md
+  Rendering Markup: about.md
+         Requiring: kramdown
+  Rendering Layout: about.md
+         Rendering: feed.xml
+  Pre-Render Hooks: feed.xml
+  Rendering Liquid: feed.xml
+  Rendering Markup: feed.xml
+  Rendering Layout: feed.xml
+         Rendering: index.md
+  Pre-Render Hooks: index.md
+  Rendering Liquid: index.md
+  Rendering Markup: index.md
+  Rendering Layout: index.md
+      Invalid Date: '' is not a valid datetime.
+  Liquid Exception: exit in _layouts/post.html
+```
 
 
 
