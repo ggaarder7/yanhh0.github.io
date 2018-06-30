@@ -79,6 +79,9 @@ Configuration file: /home/yanhh/home/mine/projects/2018/yanhh0.github.io/_config
   Liquid Exception: exit in _layouts/post.html
 ```
 
+*yanhh's note* When `jekyll 3.1.6 | Error:  Address already in use -
+bind(2) for 127.0.0.1:4000`, we can `ps aux | grep jekyll` then kill
+the old process.
 
 
 # Writing posts
