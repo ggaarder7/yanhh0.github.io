@@ -260,3 +260,97 @@ If you don't want to repeat your frequently used front matter
 variables over and over, just define defaults for them and only
 override them where necessary (or not at all). This works both for
 predefined and custom variables.
+
+
+
+# [Collections][collections]
+
+[collections]: https://jekyllrb.com/docs/collections/
+
+Not everything is a post or a page. Maybe you want to document the
+various methods in your open source project, members of a team, or
+talks at a conference. Collections allow you to define a new type of
+document that behave like Pages or Posts do normally, but also have
+their own unique properties and namespace.
+
+*Step 1: Tell Jekyll to read in your collection*
+
+Add the following to your site’s `_config.yml` file, replacing
+my_collection with the name of your collection:
+
+```
+collections:
+- my_collection
+```
+
+You can optionally specify metadata for your collection in the
+configuration:
+
+```
+collections:
+  my_collection:
+    foo: bar
+```
+
+Default attributes can also be set for a collection:
+
+```
+defaults:
+  - scope:
+      path: ""
+      type: my_collection
+    values:
+      layout: page
+```
+
+You can optionally specify a directory to store all your collections
+in the same place with `collections_dir: my_collections`.
+
+Then Jekyll will look in `my_collections/_books` for the books
+collection, and in `my_collections/_recipes` for the recipes
+collection.
+
+If you specify a directory to store all your collections in the same
+place with `collections_dir: my_collections`, then you will need to
+move your `_drafts` and `_posts` directory to `my_collections/_drafts`
+and `my_collections/_posts`. Note that, the name of your collections
+directory cannot start with an underscore (`_`).
+
+*Step 2: Add your content*
+
+Create a corresponding folder (e.g. *<source>/_my_collection*) and add
+documents. YAML front matter is processed if the front matter exists,
+and everything after the front matter is pushed into the document’s
+content attribute. If no YAML front matter is provided, Jekyll will
+not generate the file in your collection.
+
+*Step 3: Optionally render your collection’s documents into
+independent files*
+
+If you’d like Jekyll to create a public-facing, rendered version of
+each document in your collection, set the output key to true in your
+collection metadata in your *_config.yml*:
+
+```
+collections:
+  my_collection:
+    output: true
+```
+
+This will produce a file for each document in the collection. For
+example, if you have `_my_collection/some_subdir/some_doc.md`, it will
+be rendered using Liquid and the Markdown converter of your choice and
+written out to `<dest>/my_collection/some_subdir/some_doc.html`.
+
+If you wish a specific page to be shown when accessing
+`/my_collection/`, simply add permalink: `/my_collection/index.html`
+to a page. To list items from the collection, on that page or any
+other, you can use:
+
+```html
+{% for item in site.my_collection %}
+  <h2>{{ item.title }}</h2>
+  <p>{{ item.description }}</p>
+  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+{% endfor %}
+```
