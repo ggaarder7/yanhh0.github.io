@@ -3,7 +3,7 @@ title: Blogging on Github.io with Jekyll
 tags: [ blog, github.io, jekyll ]
 ---
 
-# [Jekyll Doc: Writing posts][writing-posts]
+# [Writing posts][writing-posts]
 
 [writing-posts]: https://jekyllrb.com/docs/posts/
 
@@ -15,7 +15,154 @@ The post should be named according to the following format:
 YEAR-MONTH-DAY-title.MARKUP
 ```
 
-# [Jekyll Doc: YAML Front Matter][front-matter]
+*Including images and resources*
+
+Chances are, at some point, you’ll want to include images, downloads,
+or other digital assets along with your text content. While the syntax
+for linking to these resources differs between Markdown and Textile,
+the problem of working out where to store these files in your site is
+something everyone will face.
+
+There are a number of ways to include digital assets in Jekyll. One
+common solution is to create a folder in the root of the project
+directory called something like assets, into which any images, files
+or other resources are placed. Then, from within any post, they can be
+linked to using the site’s root as the path for the asset to
+include. Again, this will depend on the way your site’s (sub)domain
+and path are configured, but here are some examples in Markdown of how
+you could do this using the absolute_url filter in a post.
+
+Including an image asset in a post:
+
+```markdown
+... which is shown in the screenshot below:
+![My helpful screenshot]({{ "/assets/screenshot.jpg" | absolute_url }})
+```
+
+Linking to a PDF for readers to download:
+
+```markdown
+... you can [get the PDF]({{ "/assets/mydoc.pdf" | absolute_url }})
+directly.
+```
+
+*A typical post*
+
+```markdown
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2015-11-17 16:16:01 -0600
+categories: jekyll update
+---
+
+You’ll find this post in your `_posts` directory. Go ahead and edit it
+and re-build the site to see your changes. You can rebuild the site in
+many different ways, but the most common way is to run `bundle exec
+jekyll serve`, which launches a web server and auto-regenerates your
+site when a file is updated.
+
+To add new posts, simply add a file in the `_posts` directory that
+follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the
+necessary front matter. Take a look at the source for this post to get
+an idea about how it works.
+```
+
+*Displaying an index of posts*
+
+It’s all well and good to have posts in a folder, but a blog is no use
+unless you have a list of posts somewhere. Creating an index of posts
+on another page (or in a template) is easy, thanks to the Liquid
+template language and its tags. Here’s a basic example of how to
+create a list of links to your blog posts:
+
+```html
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+```
+
+*Displaying post categories or tags*
+
+Hey, that’s pretty neat, but what about showing just some of your
+posts that are related to each other? For that you can use any of the
+variables definable in Front Matter. In the “typical post” section you
+can see how to define categories. Simply add the categories to your
+Front Matter as a yaml list.
+
+Now that your posts have a category or multiple categories, you can
+make a page or a template displaying just the posts in those
+categories you specify. Here’s a basic example of how to create a list
+of posts from a specific category.
+
+First, in the `_layouts` directory create a new file called
+`category.html` - in that file put (at least) the following:
+
+```html
+---
+layout: page
+---
+
+{% for post in site.categories[page.category] %}
+    <a href="{{ post.url | absolute_url }}">
+      {{ post.title }}
+    </a>
+{% endfor %}
+```
+
+Next, in the root directory of your Jekyll install, create a new
+directory called category and then create a file for each category you
+want to list. For example, if you have a category blog then create a
+file in the new directory called `blog.html` with at least
+
+```html
+---
+layout: category
+title: Blog
+category: blog
+---
+```
+
+In this case, the listing pages will be accessible at
+`{baseurl}/category/blog.html`
+
+Although categories and tags are very similar, they are used to group
+posts, there are a few differences between them. Categories and
+sub-categories create hierarchies that, by default, are reflected in
+the directory structure of your site. A post with the following header
+
+```html
+---
+layout: post
+title: A Trip
+category: [ blog, travel ]
+---
+```
+
+will be accessible at
+`{baseurl}/blog/travel/year/month/day/A-Trip.html`. On the other hand,
+a tagged post
+
+```html
+---
+layout: post
+title: A Trip
+tags: [ blog, travel ]
+---
+```
+
+will be saved as `{baseurl}/year/month/day/A-Trip.html`. It is up to
+you to create `{baseurl}/tag/blog.html` and
+`{baseurl}/tag/travel.html` the same way as described above for
+categories.
+
+
+
+# [YAML Front Matter][front-matter]
 
 [front-matter]: https://jekyllrb.com/docs/frontmatter/
 
