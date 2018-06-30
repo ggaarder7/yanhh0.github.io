@@ -89,6 +89,11 @@ To update: ```gem update jekyll```
 
 To upgrade to latest Rubygems, run: ```gem update --system```
 
+# Themes
+
+*yanhh's note* To install theme (for example): `gem install
+jekyll-theme-minimal`
+
 # Writing posts
 
 References:
