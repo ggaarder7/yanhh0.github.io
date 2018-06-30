@@ -70,7 +70,7 @@ stock Ubuntu distributions require the installation of both the ruby
 and ruby-all-dev packages:
 
 ```
-sudo apt-get install ruby ruby-all-dev
+sudo apt-get install ruby ruby-all-dev ruby-dev build-essential
 ```
 
 --------------------------------------------------------------------
