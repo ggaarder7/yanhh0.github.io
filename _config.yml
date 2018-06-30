@@ -1,10 +1,16 @@
+# Site settings
 title: 午后曳航的博客
 SEOTitle: 午后曳航的博客
 email: yanhh0@163.com
 theme: jekyll-theme-minimal
+#description: > # this means to ignore newlines until "baseurl:"
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "http://yanhh0.github.io" # the base hostname & protocol for your site
 
 collections_dir: blog
-
 collections:
   _edit:
     output: true
@@ -13,3 +19,7 @@ collections:
 weibo_username: 午后曳航hh
 zhihu_username: 杭01
 github_username: yanhh0
+
+
+# Build settings
+markdown: kramdown
