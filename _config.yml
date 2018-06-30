@@ -1,6 +1,6 @@
 # Site settings
-title: 午后曳航的博客
-SEOTitle: 午后曳航的博客
+title: The blog of Yan Huihang
+SEOTitle: The blog of Yan Huihang
 email: yanhh0@163.com
 theme: jekyll-theme-minimal
 #description: > # this means to ignore newlines until "baseurl:"
@@ -19,7 +19,6 @@ collections:
 weibo_username: 午后曳航hh
 zhihu_username: 杭01
 github_username: yanhh0
-
 
 # Build settings
 markdown: kramdown
