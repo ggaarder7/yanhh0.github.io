@@ -9,24 +9,20 @@ title: Index
 ## Posts
 
 {% for item in site.posts %}
-  <h2>{{ item.title }}</h2>
-  <span class="post-meta">{{ item.date | date: "%b %-d, %Y" }}</span>
-  <p>{{ item.description }}</p>
-  <p><a class="post-link"
-        href="{{ item.url | prepend: site.baseurl}}">
-    {{ item.title }}</a></p>
+  <span>{{ item.date | date: "%b %-d, %Y" }}</span>
+  &raquo;
+  <a href="{{ item.url | prepend: site.baseurl}}">{{ item.title }}</a>
 {% endfor %}
 
 ## Edits
 
 {% for item in site.edits %}
-  <h2>{{ item.title }}</h2>
-  <span class="post-meta">{{ item.date | date: "%b %-d, %Y" }}</span>
-  <p>{{ item.description }}</p>
-  <p><a class="post-link"
-        href="{{ item.url | prepend: site.baseurl}}">
-    {{ item.title }}</a></p>
+  <span>{{ item.date | date: "%b %-d, %Y" }}</span>
+  &raquo;
+  <a href="{{ item.url | prepend: site.baseurl}}">{{ item.title }}</a>
 {% endfor %}
+
+Thanks [Tom Preston-Werner](http://tom.preston-werner.com/) for styles.
 
 # Wishlist
 
