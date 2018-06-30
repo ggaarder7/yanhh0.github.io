@@ -60,7 +60,7 @@ and ruby-all-dev packages:
 sudo apt-get install ruby ruby-all-dev
 ```
 
-
+*yanhh's note* the same after this command. I then ran `gem update`.
 
 
 # [Writing posts][writing-posts]
