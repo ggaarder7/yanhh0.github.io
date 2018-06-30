@@ -56,17 +56,8 @@ and ruby-all-dev packages:
 sudo apt-get install ruby ruby-all-dev ruby-dev build-essential
 ```
 
---------------------------------------------------------------------
 
-*yanhh's note* the same after this command. I then ran `gem update`
-but still the same.
 
-```
-$ bundle install
-Could not locate Gemfile
-```
-
---------------------------------------------------------------------
 
 # [Writing posts][writing-posts]
 
