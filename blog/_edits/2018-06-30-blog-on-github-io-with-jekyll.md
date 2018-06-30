@@ -8,6 +8,8 @@ tags: [ blog, github.io, jekyll ]
 [quick-start]: https://jekyllrb.com/docs/quickstart/
 
 ```shell
+sudo apt-get install ruby ruby-all-dev ruby-dev build-essential
+
 # Running Jekyll as Non-Superuser (no sudo!)
 # You can add these to your bashrc file. Then you can either close and
 # restart Bash, logout and log back into your shell account, or run
@@ -15,8 +17,8 @@ tags: [ blog, github.io, jekyll ]
 export GEM_HOME=$HOME/gems
 export PATH=$HOME/gems/bin:$PATH
 
-# Install Jekyll and Bundler gems through RubyGems
-gem install jekyll bundler
+# Install Jekyll gem through RubyGems
+gem install jekyll
 
 # Create a new Jekyll site at ./myblog
 jekyll new myblog
@@ -25,10 +27,16 @@ jekyll new myblog
 cd myblog
 
 # Build the site on the preview server
-bundle exec jekyll serve
+jekyll serve
 
-# Now browse to http://localhost:4000
+# Now browse to http://localhost:4000 as what the output suggests
 ```
+
+*yanhh's note* the document suggests install Bundler gem too and use
+`bundle exec jekyll serve` to build the site on the preview
+server. However I went into `Could not locate Gemfile or .bundle/
+directory` error with that, while `jekyll serve` just works well. So I
+removed commands about Bundler in the above.
 
 To install the Jekyll site into the directory you’re currently in, run
 `jekyll new .` If the existing directory isn’t empty, you can pass the
@@ -36,26 +44,6 @@ To install the Jekyll site into the directory you’re currently in, run
 
 *yanhh's note* I ran `jekyll new . --force` in my `github.io` folder
 and used `git diff` to merge the changes.
-
-*[Troubleshooting][troubleshooting]*
-
-[troubleshooting]: https://jekyllrb.com/docs/troubleshooting/
-
-```
-$ bundle exec jekyll serve
-Could not locate Gemfile or .bundle/ directory
-```
-
-On Ubuntu if you get stuck after bundle exec jekyll serve and see
-error messages like Could not locate Gemfile or `.bundle/` directory,
-it’s likely because all requirements have not been fully met. Recent
-stock Ubuntu distributions require the installation of both the ruby
-and ruby-all-dev packages:
-
-```
-sudo apt-get install ruby ruby-all-dev ruby-dev build-essential
-```
-
 
 
 
