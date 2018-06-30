@@ -30,6 +30,17 @@ To install the Jekyll site into the directory you’re currently in, run
 *yanhh's note* I ran `jekyll new . --force` in my `github.io` folder
 and used `git diff` to merge the changes.
 
+*Running Jekyll as Non-Superuser (no sudo!)*
+
+```
+export GEM_HOME=$HOME/gems
+export PATH=$HOME/gems/bin:$PATH
+```
+
+To activate the new exports, either close and restart Bash, logout and
+log back into your shell account, or run `. .bashrc` in the
+currently-running shell.
+
 *[Troubleshooting][troubleshooting]*
 
 [troubleshooting]: https://jekyllrb.com/docs/troubleshooting/
@@ -48,6 +59,7 @@ and ruby-all-dev packages:
 ```
 sudo apt-get install ruby ruby-all-dev
 ```
+
 
 
 
