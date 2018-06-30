@@ -1,3 +1,7 @@
+---
+title: My Emacs Cheatsheet
+---
+
 # Emacs
 
 - `C-x C-s` to save
@@ -33,9 +37,11 @@
 
 - `M-x package-`
 
-## Binary Mode
+## Modes
 
 - `M-x hexl-mode`
+- artist mode
+  - C-c C-c: artist mode off
 
 ## Macro
 
