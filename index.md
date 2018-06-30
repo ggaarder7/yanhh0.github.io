@@ -6,6 +6,17 @@ title: {{ site.title }}
 小鹤双拼是我最近学过最有用的东西之一了！！！打字的时候拿着对照表忘了就
 查一周就学会了！！投入产出比极大！！！
 
+## Posts
+
+{% for item in site.posts %}
+  <h2>{{ item.title }}</h2>
+  <span class="post-meta">{{ item.date | date: "%b %-d, %Y" }}</span>
+  <p>{{ item.description }}</p>
+  <p><a class="post-link"
+        href="{{ item.url | prepend: site.baseurl}}">
+    {{ item.title }}</a></p>
+{% endfor %}
+
 ## Edits
 
 {% for item in site.edits %}
