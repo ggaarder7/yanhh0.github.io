@@ -45,6 +45,9 @@ To install the Jekyll site into the directory you’re currently in, run
 *yanhh's note* I ran `jekyll new . --force` in my `github.io` folder
 and used `git diff` to merge the changes.
 
+*yanhh's note* when things went wrong, we can use `jekyll serve
+--verbose` to see which file caused the errors.
+
 
 
 # Writing posts
