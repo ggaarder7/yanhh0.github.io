@@ -41,19 +41,6 @@ To activate the new exports, either close and restart Bash, logout and
 log back into your shell account, or run `. .bashrc` in the
 currently-running shell.
 
-------------------------------------------------------------------------
-
-*yanhh's note* it doesn't work without the `s` in `gems` like:
-
-```
-export GEM_HOME=$HOME/gem
-export PATH=$HOME/gem/bin:$PATH
-```
-
-The same `jekyll new` one in `/tmp`.
-
-------------------------------------------------------------------------
-
 *[Troubleshooting][troubleshooting]*
 
 [troubleshooting]: https://jekyllrb.com/docs/troubleshooting/
