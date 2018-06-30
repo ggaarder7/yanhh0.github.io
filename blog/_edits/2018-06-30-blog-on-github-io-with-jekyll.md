@@ -176,6 +176,36 @@ have to specify the date manually since it can be guessed from the
 filename. However the `index.md` file has no date in its filename, so
 if its layout will fail to get `post.date`.
 
+*yanhh's note* To avoid repeating `layout: xxx` in every posts, set
+the Front Matter defaults in the `_config.yml` ([Configuration |
+Jekyll documentation][config]):
+
+[config]: https://jekyllrb.com/docs/configuration/
+
+```
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "my-site"
+  -
+    scope:
+      path: "projects"
+      type: "pages" # previously `page` in Jekyll 2.2.
+    values:
+      layout: "project" # overrides previous default layout
+      author: "Mr. Hyde"
+  -
+    scope:
+      path: "section/*/special-page.html"
+    values:
+      layout: "specific-layout"
+```
+
+
+
 *Displaying an index of posts*
 
 It’s all well and good to have posts in a folder, but a blog is no use
