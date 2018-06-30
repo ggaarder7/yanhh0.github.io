@@ -8,10 +8,13 @@ title: {{ site.title }}
 
 ## Edits
 
-{% for item in site.my_collection %}
+{% for item in site.edits %}
   <h2>{{ item.title }}</h2>
+  <span class="post-meta">{{ item.date | date: "%b %-d, %Y" }}</span>
   <p>{{ item.description }}</p>
-  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+  <p><a class="post-link"
+        href="{{ item.url | prepend: site.baseurl}}">
+    {{ item.title }}</a></p>
 {% endfor %}
 
 # Wishlist
@@ -32,3 +35,5 @@ title: {{ site.title }}
 - Handwritten Signature Generator
 - Kindle (mobi) 繁竖明体转换器
 - 郭同学的网站
+
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
