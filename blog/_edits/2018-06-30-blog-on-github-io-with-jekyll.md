@@ -41,6 +41,13 @@ To activate the new exports, either close and restart Bash, logout and
 log back into your shell account, or run `. .bashrc` in the
 currently-running shell.
 
+------------------------------------------------------------------------
+
+*yanhh's note* however it doesn't work without the `s` in `gems`: `export
+PATH=$HOME/gem/bin:$PATH`
+
+------------------------------------------------------------------------
+
 *[Troubleshooting][troubleshooting]*
 
 [troubleshooting]: https://jekyllrb.com/docs/troubleshooting/
@@ -60,8 +67,17 @@ and ruby-all-dev packages:
 sudo apt-get install ruby ruby-all-dev
 ```
 
-*yanhh's note* the same after this command. I then ran `gem update`.
+--------------------------------------------------------------------
 
+*yanhh's note* the same after this command. I then ran `gem update`
+but still the same.
+
+```
+$ bundle install
+Could not locate Gemfile
+```
+
+--------------------------------------------------------------------
 
 # [Writing posts][writing-posts]
 
