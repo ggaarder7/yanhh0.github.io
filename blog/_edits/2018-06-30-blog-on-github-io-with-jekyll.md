@@ -162,7 +162,9 @@ print_hi('Tom')
 ```
 
 *yanhh's note* according the following (YAML Front Matter), we don't
-have to specify the date manually since it can be guessed from the filename. 
+have to specify the date manually since it can be guessed from the
+filename. However the `index.md` file has no date in its filename, so
+if its layout will fail to get `post.date`.
 
 *Displaying an index of posts*
 
