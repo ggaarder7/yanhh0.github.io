@@ -124,6 +124,9 @@ print_hi('Tom')
 {% endhighlight %}
 ```
 
+*yanhh's note* according the following (YAML Front Matter), we don't
+have to specify the date manually since it can be guessed from the filename. 
+
 *Displaying an index of posts*
 
 It’s all well and good to have posts in a folder, but a blog is no use
