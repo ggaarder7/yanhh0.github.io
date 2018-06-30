@@ -6,6 +6,14 @@ title: 午后曳航的博客
 小鹤双拼是我最近学过最有用的东西之一了！！！打字的时候拿着对照表忘了就
 查一周就学会了！！投入产出比极大！！！
 
+## Edits
+
+{% for item in site.my_collection %}
+  <h2>{{ item.title }}</h2>
+  <p>{{ item.description }}</p>
+  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+{% endfor %}
+
 # Wishlist
 
 如果你想送我礼物……
