@@ -59,3 +59,4 @@ title: My Emacs Cheatsheet
   used by 'fill' commands.
 - `M-x ruler-mode`
 - `M-x auto-fill-mode`
+- C-x r k: kill rectangle
