@@ -83,6 +83,9 @@ Configuration file: /home/yanhh/home/mine/projects/2018/yanhh0.github.io/_config
 bind(2) for 127.0.0.1:4000`, we can `ps aux | grep jekyll` then kill
 the old process.
 
+To update: ```gem update jekyll```
+
+To upgrade to latest Rubygems, run: ```gem update --system```
 
 # Writing posts
 
