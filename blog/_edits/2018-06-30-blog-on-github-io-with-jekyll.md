@@ -30,6 +30,27 @@ To install the Jekyll site into the directory you’re currently in, run
 *yanhh's note* I ran `jekyll new . --force` in my `github.io` folder
 and used `git diff` to merge the changes.
 
+*[Troubleshooting][troubleshooting]*
+
+[troubleshooting]: https://jekyllrb.com/docs/troubleshooting/
+
+```
+$ bundle exec jekyll serve
+Could not locate Gemfile or .bundle/ directory
+```
+
+On Ubuntu if you get stuck after bundle exec jekyll serve and see
+error messages like Could not locate Gemfile or `.bundle/` directory,
+it’s likely because all requirements have not been fully met. Recent
+stock Ubuntu distributions require the installation of both the ruby
+and ruby-all-dev packages:
+
+```
+sudo apt-get install ruby ruby-all-dev
+```
+
+
+
 # [Writing posts][writing-posts]
 
 [writing-posts]: https://jekyllrb.com/docs/posts/
