@@ -2,6 +2,8 @@
 title: Miscellaneous CLI Programs Cheatsheet
 ---
 
+*CUE Splitting*: shnsplit
+
 ### ffmpeg
 
 [20 FFmpeg Commands For Beginners -
