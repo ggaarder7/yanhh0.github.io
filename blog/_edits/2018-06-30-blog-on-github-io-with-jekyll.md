@@ -207,11 +207,12 @@ defaults:
 {% assign openTag = '{%' %}
 
 *yanhh's note* To write literal Liquid snippets, use `{{ openTag }}
-raw %}` and `{{ openTag }} endraw %}`
+raw %}` and `{{ openTag }} endraw %}`.
 
 [Raw - Liquid template language](https://shopify.github.io/liquid/tags/raw/)
 
-Or with this snippet:
+Write literal `{{ openTag }} raw %}` and `{{ openTag }} endraw %}`
+with this snippet:
 
 {% raw %}
 ```
