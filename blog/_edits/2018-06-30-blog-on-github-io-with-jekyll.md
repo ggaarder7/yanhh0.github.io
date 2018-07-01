@@ -3,6 +3,13 @@ title: Blogging on Github.io with Jekyll
 tags: [ blog, github.io, jekyll ]
 ---
 
+*yanhh's note* Learn from others. You can search `.github.io` in
+Github. And don't miss [Sites using Jekyll | Jekyll
+documentation][sites-using-jekyll] and [a longer list][sites-longer].
+
+[sites-using-jekyll]: https://jekyllrb.com/docs/sites/
+[sites-longer]: https://github.com/jekyll/jekyll/wiki/Sites
+
 # [Quick-start][quick-start]
 
 [quick-start]: https://jekyllrb.com/docs/quickstart/
