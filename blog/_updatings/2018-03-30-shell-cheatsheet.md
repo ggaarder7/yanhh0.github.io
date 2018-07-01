@@ -1,8 +1,14 @@
-# Shell
+---
+title: My Shell Cheatsheet
+---
 
 - `openvt` to run a program on a new virtual console
 - `bg` fg but in background
 - `mount -o ro`
+
+*[grep a file, but show several surrounding
+lines](https://stackoverflow.com/questions/9081/grep-a-file-but-show-several-surrounding-lines)*
+See `grep -A` `grep -B` and `grep -C`
 
 ## Shell Parameter Expansion
 
