@@ -2,15 +2,7 @@
 title: My Shell Cheatsheet
 ---
 
-- `openvt` to run a program on a new virtual console
 - `bg` fg but in background
-- `mount -o ro`
-
-*tablet calculator* Use script languages like Python and Ruby, or bc:
-```
-$ echo 707425047/1024/1024 | bc
-674
-```
 
 *[grep a file, but show several surrounding
 lines](https://stackoverflow.com/questions/9081/grep-a-file-but-show-several-surrounding-lines)*
@@ -25,3 +17,12 @@ begins with '/', all matches are replaced, or only the first.
 See also [bashref][bashref].
 
 [bashref]: http://www.gnu.org/software/bash/manual/bashref.html
+
+- `mount -o ro`
+- `openvt` to run a program on a new virtual console
+
+*tablet calculator* Use script languages like Python and Ruby, or bc:
+```
+$ echo 707425047/1024/1024 | bc
+674
+```
