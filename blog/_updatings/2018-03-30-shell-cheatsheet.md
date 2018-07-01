@@ -8,7 +8,8 @@ title: My Shell Cheatsheet
 
 *[grep a file, but show several surrounding
 lines](https://stackoverflow.com/questions/9081/grep-a-file-but-show-several-surrounding-lines)*
-See `grep -A` `grep -B` and `grep -C`
+See `grep -A` `grep -B` and `grep -C` (for after-context,
+before-context and context)
 
 ## Shell Parameter Expansion
 
