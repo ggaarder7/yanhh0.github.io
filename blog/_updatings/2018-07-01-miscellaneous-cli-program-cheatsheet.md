@@ -3,7 +3,7 @@ title: Miscellaneous CLI Programs Cheatsheet
 ---
 
 *Encoding Detect*: enca, chardet (Python module)
-*Encoding Convert*: iconv
+*Encoding Convert*: iconv, enca (?)
 *CUE Splitting*: shnsplit (in shntool)
 
 ### ffmpeg
