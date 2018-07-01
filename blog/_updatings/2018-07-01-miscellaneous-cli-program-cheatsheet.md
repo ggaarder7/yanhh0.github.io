@@ -2,7 +2,7 @@
 title: Miscellaneous CLI Programs Cheatsheet
 ---
 
-*CUE Splitting*: shnsplit
+*CUE Splitting*: shnsplit (in shntool)
 
 ### ffmpeg
 
