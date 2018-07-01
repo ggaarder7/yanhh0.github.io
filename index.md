@@ -22,6 +22,15 @@ title: Index
   <a href="{{ item.url | prepend: site.baseurl}}">{{ item.title }}</a>
 {% endfor %}
 
+**Updatings**
+
+{% for item in site.updatings %}
+  <span>{{ item.date | date: "%b %-d, %Y" }}</span>
+  &raquo;
+  <a href="{{ item.url | prepend: site.baseurl}}">{{ item.title }}</a>
+{% endfor %}
+
+
 Thanks [Tom Preston-Werner](http://tom.preston-werner.com/) for styles.
 
 # Wishlist
