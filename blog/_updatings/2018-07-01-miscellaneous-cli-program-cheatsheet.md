@@ -6,6 +6,13 @@ title: Miscellaneous CLI Programs Cheatsheet
 *Encoding Convert*: iconv, enca (?)
 *CUE Splitting*: shnsplit (in shntool)
 
+*Split and Compress Music*
+```
+$ shnsplit -f ../../周杰伦.-.Jay.utf8.cue ../../周杰伦.-.Jay.wav -t "%n %t"
+$ for i in *; do ffmpeg -i "$i" -ab 96k "${i/.wav/.aac}"; rm "$i";
+done
+```
+
 ### ffmpeg
 
 [20 FFmpeg Commands For Beginners -
