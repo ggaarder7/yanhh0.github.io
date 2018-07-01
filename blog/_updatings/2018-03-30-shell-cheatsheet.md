@@ -6,6 +6,12 @@ title: My Shell Cheatsheet
 - `bg` fg but in background
 - `mount -o ro`
 
+*tablet calculator* Use script languages like Python and Ruby, or bc:
+```
+$ echo 707425047/1024/1024 | bc
+674
+```
+
 *[grep a file, but show several surrounding
 lines](https://stackoverflow.com/questions/9081/grep-a-file-but-show-several-surrounding-lines)*
 See `grep -A` `grep -B` and `grep -C` (for after-context,
