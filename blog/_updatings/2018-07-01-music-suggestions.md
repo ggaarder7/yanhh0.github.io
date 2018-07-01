@@ -35,3 +35,48 @@ title: My Music Suggestions
 ### Pop+Chinese+Cantonese
 
 *張學友 - 活出生命LIVE演唱會*
+
+### Unsorted
+
+张惠妹.-.[我要快乐].专辑
+张惠妹.-.[真实].专辑
+
+$ ls Queen\(皇后乐队\)_Greatest\ Hits/
+01 Bohemian Rhapsody.flac               02 Another One Bites the Dust.flac
+03 Killer Queen.flac                    04 Fat Bottomed Girls.flac
+05 Bicycle Race.flac                    06 You're My Best Friend.flac
+07 Don't Stop Me Now.flac               08 Save Me.flac
+09 Crazy Little Thing Called Love.flac  10 Somebody to Love.flac
+11 Now I'm Here.flac                    12 Good Old-Fashioned Lover Boy.flac
+13 Play the Game.flac                   14 Flash.flac
+15 Seven Seas of Rhye.flac              16 We Will Rock You.flac
+17 We are the Champions.flac
+
+Kan.R..Gao.&.Laura.Shigihara.-.[去月球.-.To.The.Moon].专辑.(mp3)
+$ rm -rf Kan.R..Gao.\&.Laura.Shigihara.-.\[去月球.-.To.The.Moon\].专辑.\(mp3\)/
+01 To the Moon - Main Theme.mp3
+02 Between a Squirrel and a Tree.mp3
+03 Spiral of Secrets.mp3
+04 For River - Piano (Sarah & Tommy's Version).mp3
+05 Bestest Detectives in the World.mp3
+06 Too Bad So Sad.mp3
+07 Teddy.mp3
+08 Uncharted Realms.mp3
+09 Having Lived.mp3
+10 Moonwisher.mp3
+11 Born a Stranger.mp3
+12 For River - Piano (Johnny's Version).mp3
+13 Lament of a Stranger.mp3
+14 Everything's Alright (Music Box).mp3
+15 Moongazer.mp3
+16 Anya by the Stars.mp3
+17 Take Me Anywhere.mp3
+18 Warning (AKA best track ever).mp3
+19 Beta-B.mp3
+20 World's Smallest Ferris Wheel.mp3
+21  Once Upon a Memory.mp3
+22 Once Upon a Memory (Piano).mp3
+23 Everything's Alright.mp3
+
+Haydn, Beethoven, Mozart - Sonatas - Rafal Blechacz
+Pepe.Romero.-.[Ultimate.Classical.Guitar.CD5].专辑.(Flac)
