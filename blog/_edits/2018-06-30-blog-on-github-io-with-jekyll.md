@@ -204,7 +204,12 @@ defaults:
       layout: "specific-layout"
 ```
 
+{% raw }
+*yanhh's note* To write literal Liquid snippets, use {% raw %} and {%
+end raw %}
 
+[Raw - Liquid template language](https://shopify.github.io/liquid/tags/raw/)
+{ %endraw }
 
 *Displaying an index of posts*
 
@@ -485,6 +490,7 @@ If you wish a specific page to be shown when accessing
 to a page. To list items from the collection, on that page or any
 other, you can use:
 
+{% raw %}
 ```html
 {% for item in site.my_collection %}
   <h2>{{ item.title }}</h2>
@@ -492,3 +498,4 @@ other, you can use:
   <p><a href="{{ item.url }}">{{ item.title }}</a></p>
 {% endfor %}
 ```
+{% endraw %}
