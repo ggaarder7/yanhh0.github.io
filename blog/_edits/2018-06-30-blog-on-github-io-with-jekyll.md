@@ -333,7 +333,7 @@ categories.
 
 # [Linking to pages](https://jekyllrb.com/docs/templates/#link)
 
-Like:
+Usage:
 
 {% raw %}
 ```
