@@ -18,10 +18,6 @@
           {% if my_page.title %}
           <a class="page-link" href="{{ my_page.url | prepend:
                                      site.baseurl }}">
-            {% if my_page.source %}
-            转：
-            {% endif %}
-
             {{ my_page.title }}
           </a>
           {% endif %}
