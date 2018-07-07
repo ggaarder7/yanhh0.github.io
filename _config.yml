@@ -10,10 +10,6 @@ url: "http://yanhh0.github.io" # the base hostname & protocol for your site
 
 collections_dir: blog
 collections:
-  edits:
-    output: true
-  updatings:
-    output: true
   tabs:
     output: true
 

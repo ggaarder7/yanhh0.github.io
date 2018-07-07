@@ -14,22 +14,6 @@ title: Index
   <a href="{{ item.url | prepend: site.baseurl}}">{{ item.title }}</a>
 {% endfor %}
 
-**Edits**
-
-{% for item in site.edits %}
-  <span>{{ item.date | date: "%b %-d, %Y" }}</span>
-  &raquo;
-  <a href="{{ item.url | prepend: site.baseurl}}">{{ item.title }}</a>
-{% endfor %}
-
-**Updatings**
-
-{% for item in site.updatings %}
-  <span>{{ item.date | date: "%b %-d, %Y" }}</span>
-  &raquo;
-  <a href="{{ item.url | prepend: site.baseurl}}">{{ item.title }}</a>
-{% endfor %}
-
 **Tabs**
 
 {% for item in site.tabs %}
