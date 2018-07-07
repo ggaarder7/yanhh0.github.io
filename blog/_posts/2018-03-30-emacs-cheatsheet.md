@@ -1,5 +1,6 @@
 ---
 title: My Emacs Cheatsheet
+tags: [ emacs, nix, starred, cheatsheet, updating ]
 ---
 
 - `C-x C-s` to save
