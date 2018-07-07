@@ -49,4 +49,12 @@ title: Index
 - Kindle (mobi) 繁竖明体转换器
 - 郭同学的网站
 
+# Links
+
+- [Tom Preston-Werner](http://tom.preston-werner.com/)
+- [matrix67的博客](http://www.matrix67.com/),
+  [考据癖](http://localhost-8080.com/)
+- [许嵩的新浪博客](http://blog.sina.com.cn/vae),
+  [许嵩的网易博客（停止更新）](http://vaevip.blog.163.com/)
+
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
