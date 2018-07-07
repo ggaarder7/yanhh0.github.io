@@ -14,6 +14,8 @@ collections:
     output: true
   updatings:
     output: true
+  tabs:
+    output: true
 
 defaults:
   -
@@ -21,6 +23,11 @@ defaults:
       path: ""
     values:
       layout: "post"
+  -
+    scope:
+      path: "tabs"
+    values:
+      layout: "reprint"
 
 # SNS settings
 weibo_username: 午后曳航hh
