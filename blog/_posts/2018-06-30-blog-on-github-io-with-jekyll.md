@@ -1,6 +1,6 @@
 ---
 title: Blogging on Github.io with Jekyll
-tags: [ blog, github.io, jekyll ]
+tags: [ blog, github.io, jekyll, starred ]
 ---
 
 *yanhh's note* Learn from others. You can search `.github.io` in
