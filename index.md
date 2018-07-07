@@ -22,6 +22,14 @@ title: Index
   <a href="{{ item.url | prepend: site.baseurl}}">{{ item.title }}</a>
 {% endfor %}
 
+**Reprints**
+
+{% for item in site.reprints %}
+  <span>{{ item.date | date: "%b %-d, %Y" }}</span>
+  &raquo;
+  <a href="{{ item.url | prepend: site.baseurl}}">{{ item.title }}</a>
+{% endfor %}
+
 **Thanks [Tom Preston-Werner](http://tom.preston-werner.com/) for TOC style.**
 
 # Wishlist
