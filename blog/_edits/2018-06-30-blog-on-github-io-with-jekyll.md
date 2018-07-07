@@ -57,6 +57,7 @@ and used `git diff` to merge the changes.
 *yanhh's note* When things went wrong, we can use `jekyll serve
 --verbose` to see which file caused the errors, like:
 
+{% raw %}
 ```
 $ jekyll serve --verbose
   Logging at level: debug
@@ -177,6 +178,7 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 ```
+{% endraw %}
 
 *yanhh's note* According the following (YAML Front Matter), we don't
 have to specify the date manually since it can be guessed from the
@@ -329,7 +331,26 @@ you to create `{baseurl}/tag/blog.html` and
 `{baseurl}/tag/travel.html` the same way as described above for
 categories.
 
+# [Linking to pages](https://jekyllrb.com/docs/templates/#link)
 
+Like:
+
+{% raw %}
+```
+{{ site.baseurl }}{% post_url 2010-07-21-name-of-post %}
+{{ site.baseurl }}{% post_url /subdir/2010-07-21-name-of-post %}
+
+{{ site.baseurl }}{% link _collection/name-of-document.md %}
+{{ site.baseurl }}{% link _posts/2016-07-26-name-of-post.md %}
+{{ site.baseurl }}{% link news/index.html %}
+{{ site.baseurl }}{% link /assets/files/doc.pdf %}
+
+[Link to a document]({{ site.baseurl }}{% link _collection/name-of-document.md %})
+[Link to a post]({{ site.baseurl }}{% link _posts/2016-07-26-name-of-post.md %})
+[Link to a page]({{ site.baseurl }}{% link news/index.html %})
+[Link to a file]({{ site.baseurl }}{% link /assets/files/doc.pdf %})
+```
+{% endraw %}
 
 # [YAML Front Matter][front-matter]
 
