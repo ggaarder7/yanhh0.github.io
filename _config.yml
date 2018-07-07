@@ -11,6 +11,8 @@ collections_dir: blog
 collections:
   tabs:
     output: true
+  reprints:
+    output: true
 
 defaults:
   -
