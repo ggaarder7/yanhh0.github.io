@@ -6,7 +6,15 @@ title: Index
 小鹤双拼是我最近学过最有用的东西之一了！！！打字的时候拿着对照表忘了就
 查一周就学会了！！投入产出比极大！！！
 
-**Posts**
+**Starred Posts**
+
+{% for item in site.tags['starred'] %}
+  <span>{{ item.date | date: "%b %-d, %Y" }}</span>
+  &raquo;
+  <a href="{{ item.url | prepend: site.baseurl}}">{{ item.title }}</a>
+{% endfor %}
+
+**All Posts**
 
 {% for item in site.posts %}
   <span>{{ item.date | date: "%b %-d, %Y" }}</span>
