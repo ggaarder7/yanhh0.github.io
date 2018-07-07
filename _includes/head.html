@@ -5,7 +5,11 @@
 
   <title>
     {% if page.source %}
-      转：
+      {% if page.author %}
+        {{ page.author }}:
+      {% else %}
+        转:
+      {% endif %}
     {% endif %}
 
     {% if page.title %}
