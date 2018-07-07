@@ -30,6 +30,14 @@ title: Index
   <a href="{{ item.url | prepend: site.baseurl}}">{{ item.title }}</a>
 {% endfor %}
 
+**Tabs**
+
+{% for item in site.tabs %}
+  <span>{{ item.date | date: "%b %-d, %Y" }}</span>
+  &raquo;
+  <a href="{{ item.url | prepend: site.baseurl}}">{{ item.title }}</a>
+{% endfor %}
+
 
 Thanks [Tom Preston-Werner](http://tom.preston-werner.com/) for styles.
 
