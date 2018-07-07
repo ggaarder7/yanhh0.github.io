@@ -13,6 +13,18 @@ $ for i in *; do ffmpeg -i "$i" -ab 96k "${i/.wav/.aac}"; rm "$i";
 done
 ```
 
+*git*
+```
+error: file .git/objects/../... is empty
+error: file .git/objects/../... is empty
+fatal: loose object ... (stored in .git/...) is corrupt
+```
+
+- run `git fsck`
+- copy the object copy from a backup
+- eventually I `git clone`'d a older version, copying all files to
+  there then `git commit` all over again
+
 ### ffmpeg
 
 [20 FFmpeg Commands For Beginners -
