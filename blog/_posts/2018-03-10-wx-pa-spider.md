@@ -4,10 +4,10 @@ tags: [ python, spider, wechat, selenium, starred ]
 ---
 
 为ITRClub智想汇项目做的微信公众号爬虫。因为公众号程序是WebApp所以只能
-用Selenium这种直接操作浏览器来爬。当时周末两天就搞定了，主要时间
-花在分析公众号页码的HTML结构上。还有一份存在
+用Selenium这种直接操作浏览器来爬。当时周末两天就搞定了，主要时间花在分
+析公众号页码的HTML结构上。还有一份存在
 [ITRClub/wx-material-spider](https://github.com/ITRClub/wx-material-spider)
-，有人改了名字，不知道是谁改的。
+。原来的仓库名不是这个，有人改了名字，不知道是谁改的。
 
 `conf.json`示例:
 
