@@ -23,11 +23,6 @@ defaults:
       path: ""
     values:
       layout: "post"
-  -
-    scope:
-      path: "blog/tabs"
-    values:
-      layout: "reprint"
 
 # SNS settings
 weibo_username: 午后曳航hh
