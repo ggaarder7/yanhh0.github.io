@@ -6,6 +6,7 @@ description: >
 
   Computer Science, Mathematics, Arts, and More
 url: "http://yanhh0.github.io" # the base hostname & protocol for your site
+github_repo: 'https://github.com/yanhh0/yanhh0.github.io/'
 
 collections_dir: blog
 collections:
