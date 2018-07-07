@@ -2,8 +2,6 @@
 title: My Emacs Cheatsheet
 ---
 
-# Emacs
-
 - `C-x C-s` to save
 - `C-x C-c` to exit
 - `C-x 1` to keep only one window
@@ -59,4 +57,4 @@ title: My Emacs Cheatsheet
   used by 'fill' commands.
 - `M-x ruler-mode`
 - `M-x auto-fill-mode`
-- C-x r k: kill rectangle
+- `C-x r k` kill rectangle then `M-x yank-rectangle`
