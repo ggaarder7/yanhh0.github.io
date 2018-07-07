@@ -22,7 +22,7 @@ title: Index
   <a href="{{ item.url | prepend: site.baseurl}}">{{ item.title }}</a>
 {% endfor %}
 
-**Thanks [Tom Preston-Werner](http://tom.preston-werner.com/) for styles.**
+**Thanks [Tom Preston-Werner](http://tom.preston-werner.com/) for TOC style.**
 
 # Wishlist
 
