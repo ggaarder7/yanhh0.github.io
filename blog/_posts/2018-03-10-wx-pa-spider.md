@@ -7,8 +7,7 @@ tags: [ python, spider, wechat, selenium, starred ]
 用Selenium这种直接操作浏览器来爬。当时周末两天就搞定了，主要时间花在分
 析公众号页码的HTML结构上。还有一份存在
 [ITRClub/wx-material-spider](https://github.com/ITRClub/wx-material-spider)
-（当时用的Github ID不一样）。原来的仓库名不是这个，有人改了名字，不知
-道是谁改的。
+（当时用的Github ID是yanhu1hang）。
 
 `conf.json`示例:
 
