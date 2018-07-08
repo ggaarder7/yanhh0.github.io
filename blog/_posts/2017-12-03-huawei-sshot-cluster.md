@@ -1,16 +1,9 @@
 ---
 title: 小脚本：华为截图整理
+tags: [ script, python, huawei, sshot, starred, sort ]
 ---
 
 ```python
-# 2018-05-26 Forked from E:\01\FROM_SANDISK_15G\聽\work\sort\ver\
-# Huawei VNS-AL00 Screenshots Sorter.v3.py
-#
-# 2017-12-17T13:24:50+08:00
-# Arrange code fragments in lines between 230 and 362 of [[171203]].
-#
-# See [[171203]] and [[171217]]
-
 import os
 import re
 import itertools
