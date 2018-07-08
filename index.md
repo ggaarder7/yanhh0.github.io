@@ -75,5 +75,8 @@ title: Index
   [考据癖](http://localhost-8080.com/)
 - [许嵩的新浪博客](http://blog.sina.com.cn/vae),
   [许嵩的网易博客（停止更新）](http://vaevip.blog.163.com/)
+- [Selenium Python Bindings
+  Documentation](https://selenium-python.readthedocs.io),
+  [Github](https://github.com/baijum/selenium-python)
 
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
