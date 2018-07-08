@@ -23,6 +23,7 @@ defaults:
       layout: "post"
 
 # SNS settings
+baidu_username: 51杭
 weibo_username: 午后曳航hh
 zhihu_username: 杭01
 github_username: yanhh0
