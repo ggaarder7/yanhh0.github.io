@@ -1,10 +1,8 @@
 # Site settings
-title: 午后曳航的博客
+title: Yanhh\'s Home Page
 email: yanhh0@163.com
 description: >
-  Chinese Middle School Student
-
-  Computer Science, Mathematics, Arts, and More
+  Yanhh\'s Home Page
 url: "http://yanhh0.github.io" # the base hostname & protocol for your site
 github_repo: 'https://github.com/yanhh0/yanhh0.github.io/'
 
