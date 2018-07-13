@@ -79,6 +79,7 @@ title: Index
 - [Selenium Python Bindings
   Documentation](https://selenium-python.readthedocs.io),
   [Github](https://github.com/baijum/selenium-python)
+- [中国独立开发者项目列表 -- 分享大家都在做什么](https://github.com/1c7/chinese-independent-developer)
 - [许嵩的新浪博客](http://blog.sina.com.cn/vae),
   [许嵩的网易博客（停止更新）](http://vaevip.blog.163.com/)
 - [IMSLP/Petrucci Music Library Sharing the world's public domain
