@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Index
+layout: post
 ---
 
 小鹤双拼是我最近学过最有用的东西之一了！！！打字的时候拿着对照表忘了就
