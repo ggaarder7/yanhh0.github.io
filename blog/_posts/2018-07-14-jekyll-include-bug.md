@@ -17,15 +17,18 @@ for generating TOC for a list of posts. However it failed to get the
 argument `site.tags['starred']` but successed with all other
 `site.posts` `site.reprints` etc. Here's a minimal demo:
 
+{% raw %}
 ```shell
 jekyll new demo
 cd demo/
 echo {% include xxx.html fakearg=site.tags['starred'] %} >> index.md
 jekyll serve
 ```
+{% endraw %}
 
 Then:
 
+{% raw %}
 ```
   Liquid Exception: Invalid syntax for include tag: fakearg=site.tags[starred] Valid syntax: {% include file.ext param='value' param2='value' %} in index.md
 jekyll 3.8.3 | Error:  Invalid syntax for include tag:
@@ -36,13 +39,16 @@ Valid syntax:
 
   {% include file.ext param='value' param2='value' %}
 ```
+{% endraw %}
 
 However, this one will work (just there'll be a error that xxx.html
 doesn't exist):
 
+{% raw %}
 ```shell
 jekyll new demo
 cd demo/
 echo {% include xxx.html fakearg=site.posts %} >> index.md
 jekyll serve
 ```
+{% endraw %}
