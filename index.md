@@ -8,37 +8,20 @@ layout: post
 
 **Starred Posts**
 
-{% for item in site.tags['starred'] %}
-  <span>{{ item.date | date: "%b %-d, %Y" }}</span>
-  &raquo;
-  <a href="{{ item.url | prepend: site.baseurl}}">{{ item.title }}</a>
-{% endfor %}
+{% assign starred=site.tags['starred'] %}
+{% include index.html collection=starred %}
 
 **All Posts**
 
-{% for item in site.posts %}
-  <span>{{ item.date | date: "%b %-d, %Y" }}</span>
-  &raquo;
-  <a href="{{ item.url | prepend: site.baseurl}}">{{ item.title }}</a>
-{% endfor %}
+{% include index.html collection=site.posts %}
 
 **Tabs**
 
-{% for item in site.tabs %}
-  <span>{{ item.date | date: "%b %-d, %Y" }}</span>
-  &raquo;
-  <a href="{{ item.url | prepend: site.baseurl}}">{{ item.title }}</a>
-{% endfor %}
+{% include index.html collection=site.tabs %}
 
 **Reprints**
 
-{% for item in site.reprints %}
-  <span>{{ item.date | date: "%b %-d, %Y" }}</span>
-  &raquo;
-  <a href="{{ item.url | prepend: site.baseurl}}">
-    {{ item.author }}: {{ item.title }}
-  </a>
-{% endfor %}
+{% include index.html collection=site.reprints %}
 
 **Thanks [Tom Preston-Werner](http://tom.preston-werner.com/) for TOC style.**
 
