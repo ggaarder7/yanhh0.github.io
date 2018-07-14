@@ -11,6 +11,8 @@ collections:
     output: true
   reprints:
     output: true
+  tweets:
+    output: true
 
 defaults:
   -
