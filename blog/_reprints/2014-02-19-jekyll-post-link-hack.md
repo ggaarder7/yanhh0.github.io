@@ -30,9 +30,11 @@ and you're good to go.  Or you can get it from github.
 
 Usage of post_link is as follows:
 
+{% raw %}
 ```liquid
 {% post_link post text %}
 ```
+{% endraw %}
 
 Where post is a post in the usual date-slug format.
 
