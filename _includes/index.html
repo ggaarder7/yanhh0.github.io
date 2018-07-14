@@ -1,6 +1,6 @@
 <table>
 {% for item in include.collection %}<tr>
-  <td align=right>{{ item.date | date: "%b %-d, %Y" }}</td>
+  <td align='right'>{{ item.date | date: "%b %-d, %Y" }}</td>
   <td>&raquo;</td>
   <td><a href="{{ item.url | prepend: site.baseurl}}">{% if item.author %}
     {{ item.author }}: {% endif %} {{ item.title }}</a></td>
