@@ -6,22 +6,11 @@ layout: post
 小鹤双拼是我最近学过最有用的东西之一了！！！打字的时候拿着对照表忘了就
 查一周就学会了！！投入产出比极大！！！
 
-**Starred Posts**
-
 {% assign starred=site.tags['starred'] %}
-{% include index.html collection=starred %}
-
-**All Posts**
-
-{% include index.html collection=site.posts %}
-
-**Tabs**
-
-{% include index.html collection=site.tabs %}
-
-**Reprints**
-
-{% include index.html collection=site.reprints %}
+{% include index.html title='Starred Posts' collection=starred %}
+{% include index.html title='All Posts' collection=site.posts %}
+{% include index.html title='Tabs' collection=site.tabs %}
+{% include index.html title='Reprints' collection=site.reprints %}
 
 **Thanks [Tom Preston-Werner](http://tom.preston-werner.com/) for TOC style.**
 
