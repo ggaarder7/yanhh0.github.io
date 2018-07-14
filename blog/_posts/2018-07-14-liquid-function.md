@@ -48,8 +48,17 @@ The Liquid documentation doesn't mention about function-like
 features. [A Stackoverflow question][so-liquid-function] use `include`
 and it works well. Just write:
 
+{% raw %}
 ```liquid
 {% include footer.html param="value" variable-param=page.variable %}
 ```
+{% endraw %}
 
 [so-liquid-function]: https://stackoverflow.com/questions/21976330/passing-parameters-to-inclusion-in-liquid-templates
+
+[A Jekyll user's blog about include][user-blog-include] included more
+informations (thanks Jekyll and Markdown, I just grabbed the raw
+source from its Github repository to my reprints collection in one
+minute).
+
+[user-blog-include]: {% link _reprints/2014-11-13-jekyll-includes-are-functions.md %}
