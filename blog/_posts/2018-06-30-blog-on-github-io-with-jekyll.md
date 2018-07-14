@@ -352,11 +352,13 @@ Usage:
 ```
 {% endraw %}
 
+{% raw %}
 (Including `{{ site.baseurl }}` is optional — it depends on whether
 you want to preface the page URL with the baseurl value.)
 
 If you’re unsure of the path, add `{{ page.path }}` to the page and it
 will display the path.
+{% endraw %}
 
 # [YAML Front Matter][front-matter]
 
