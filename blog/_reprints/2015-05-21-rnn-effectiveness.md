@@ -1,7 +1,9 @@
 ---
 layout: post
-comments: true
 title:  "The Unreasonable Effectiveness of Recurrent Neural Networks"
+author: Andrej Karpathy
+source: http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+raw-source: https://raw.githubusercontent.com/karpathy/karpathy.github.io/master/_posts/2015-05-21-rnn-effectiveness.markdown
 excerpt: "We'll train and sample from character-level RNN language
 models that learn to write poetry, latex math and code. We'll also
 analyze the models and get hints of future research directions."
@@ -214,6 +216,7 @@ was starting to signing a major tripad of aid exile.]]
 
 In case you were wondering, the yahoo url above doesn't actually exist, the model just hallucinated it. Also, note that the model learns to open and close the parenthesis correctly. There's also quite a lot of structured markdown that the model learns, for example sometimes it creates headings, lists, etc.:
 
+{% raw %}
 ```
 { { cite journal | id=Cerling Nonforest Department|format=Newlymeslated|none } }
 ''www.e-complete''.
@@ -238,6 +241,7 @@ In case you were wondering, the yahoo url above doesn't actually exist, the mode
 
 {{African American_and_Australian_Parliament{|}}
 ```
+{% endraw %}
 
 Sometimes the model snaps into a mode of generating random but valid XML:
 
