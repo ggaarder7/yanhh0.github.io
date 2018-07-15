@@ -17,9 +17,15 @@
   [Github](https://github.com/Shopify/shopify.github.com)
 
 **Machine Learning**
-- [Andrej Karpathy's char-rnn](https://github.com/karpathy/char-rnn),
-  [blog](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
-- [Weideman's char-rnn: talk like me](https://hjweide.github.io/char-rnn)
+- char-rnn
+  - [Andrej Karpathy's char-rnn](https://github.com/karpathy/char-rnn),
+    [blog](http://karpathy.github.io/2015/05/21/rnn-effectiveness/),
+    [100-line gist](https://github.com/weixsong/min-char-rnn)
+  - [Weideman's char-rnn: talk like me](https://hjweide.github.io/char-rnn)
+  - [生成周杰伦歌词](https://github.com/leido/char-rnn-cn),
+    [blog](http://leix.me/2016/11/28/tensorflow-lyrics-generation/)
+  - [生成古诗和周杰伦的歌
+    词](https://github.com/L1aoXingyu/Char-RNN-Gluon)
 
 **Education**
 
