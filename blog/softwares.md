@@ -2,6 +2,7 @@
 title: Softwares
 ---
 
+- Stardict
 - Git
 - Gitk
 - LaTeX
