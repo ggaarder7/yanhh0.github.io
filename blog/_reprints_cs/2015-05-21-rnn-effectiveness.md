@@ -7,6 +7,7 @@ raw-source: https://raw.githubusercontent.com/karpathy/karpathy.github.io/master
 excerpt: "We'll train and sample from character-level RNN language
 models that learn to write poetry, latex math and code. We'll also
 analyze the models and get hints of future research directions."
+mathjax: true
 ---
 
 There's something magical about Recurrent Neural Networks (RNNs). I

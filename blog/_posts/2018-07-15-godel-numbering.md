@@ -1,6 +1,7 @@
 ---
 title: Gödel numbering
 source: https://en.wikipedia.org/wiki/G%C3%B6del_numbering
+mathjax: true
 ---
 
 In mathematical logic, a Gödel numbering is a function that assigns to
