@@ -1,4 +1,6 @@
 **CS**
+- [Learn X in Y minutes](https://learnxinyminutes.com/): Code
+  documentation written as code
 - [Tom Preston-Werner](http://tom.preston-werner.com/),
   [Github](https://github.com/mojombo/mojombo.github.io)
 - [matrix67的博客](http://www.matrix67.com/),
