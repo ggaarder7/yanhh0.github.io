@@ -8,7 +8,9 @@ tags: [ python, spider, starred ]
 周末去打谱子，问问同学要不要帮忙顺便打一点，L同学直接推了个公众号过来，
 叫ElleryGuitarTab。公众号质量很高，可惜没有提供批量下载的方式，交流群也没有。
 
-正好[我之前做ITRClub的项目时做过微信公众号的爬虫]({{ site.baseurl }}{% post_url 2018-03-10-wx-pa-spider %})，可以说是有经验。
+正好[我之前做ITRClub的项目时做过微信公众号的爬虫][wxpa]，可以说是有经验。
+
+[wxpa]: {% link _majors/2018-03-10-wx-pa-spider.md %}
 
 **目录页分析**
 
