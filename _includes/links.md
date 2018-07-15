@@ -1,10 +1,14 @@
-**CS**
-- [Learn X in Y minutes](https://learnxinyminutes.com/): Code
-  documentation written as code
+**Blogs**
+
 - [Tom Preston-Werner](http://tom.preston-werner.com/),
   [Github](https://github.com/mojombo/mojombo.github.io)
 - [matrix67的博客](http://www.matrix67.com/),
   [考据癖](http://localhost-8080.com/)
+- [Xah Lee 李杀](http://ergoemacs.org/index.html)
+
+**CS**
+- [Learn X in Y minutes](https://learnxinyminutes.com/): Code
+  documentation written as code
 - [中国独立开发者项目列表 -- 分享大家都在做什
   么](https://github.com/1c7/chinese-independent-developer)
 
