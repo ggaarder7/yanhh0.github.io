@@ -6,11 +6,11 @@ github_repo: 'https://github.com/yanhh0/yanhh0.github.io/'
 
 collections_dir: blog
 collections:
-  tabs:
+  majors:
     output: true
   reprints:
     output: true
-  majors:
+  tabs:
     output: true
   tweets:
     output: true
