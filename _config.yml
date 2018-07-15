@@ -12,6 +12,8 @@ collections:
     output: true
   reprints:
     output: true
+  reprints_cs:
+    output: true
   tabs:
     output: true
   tweets:
