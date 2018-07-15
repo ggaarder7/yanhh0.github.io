@@ -1,5 +1,5 @@
 ---
-title: `git mv` with Convenient Tab Auto-Complete
+title: '`git mv` with Convenient Tab Auto-Complete'
 ---
 
 Step 1:
