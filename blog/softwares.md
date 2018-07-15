@@ -2,6 +2,8 @@
 title: Softwares
 ---
 
+- Git
+- Gitk
 - LaTeX
 - Pandoc
 - MathJax
