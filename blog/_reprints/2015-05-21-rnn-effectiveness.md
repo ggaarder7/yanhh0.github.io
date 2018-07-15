@@ -34,7 +34,7 @@ By the way, together with this post I am also releasing [code on Github](https:/
 **Sequences**. Depending on your background you might be wondering: *What makes Recurrent Networks so special*? A glaring limitation of Vanilla Neural Networks (and also Convolutional Networks) is that their API is too constrained: they accept a fixed-sized vector as input (e.g. an image) and produce a fixed-sized vector as output (e.g. probabilities of different classes). Not only that: These models perform this mapping using a fixed amount of computational steps (e.g. the number of layers in the model). The core reason that recurrent nets are more exciting is that they allow us to operate over *sequences* of vectors: Sequences in the input, the output, or in the most general case both. A few examples may make this more concrete:
 
 <div class="imgcap">
-<img src="/assets/rnn/diags.jpeg">
+<img src="http://karpathy.github.io/assets/rnn/diags.jpeg">
 <div class="thecap" style="text-align:justify">Each rectangle is a vector and arrows represent functions (e.g. matrix multiply). Input vectors are in red, output vectors are in blue and green vectors hold the RNN's state (more on this soon). From left to right: <b>(1)</b> Vanilla mode of processing without RNN, from fixed-sized input to fixed-sized output (e.g. image classification). <b>(2)</b> Sequence output (e.g. image captioning takes an image and outputs a sentence of words). <b>(3)</b> Sequence input (e.g. sentiment analysis where a given sentence is classified as expressing positive or negative sentiment). <b>(4)</b> Sequence input and sequence output (e.g. Machine Translation: an RNN reads a sentence in English and then outputs a sentence in French). <b>(5)</b> Synced sequence input and output (e.g. video classification where we wish to label each frame of the video). Notice that in every case are no pre-specified constraints on the lengths sequences because the recurrent transformation (green) is fixed and can be applied as many times as we like.</div>
 </div>
 
@@ -46,8 +46,8 @@ As you might expect, the sequence regime of operation is much more powerful comp
 
 <div class="imgcap">
 <div>
-<img src="/assets/rnn/house_read.gif" style="max-width:49%; height:400px;">
-<img src="/assets/rnn/house_generate.gif" style="max-width:49%; height:400px;">
+<img src="http://karpathy.github.io/assets/rnn/house_read.gif" style="max-width:49%; height:400px;">
+<img src="http://karpathy.github.io/assets/rnn/house_generate.gif" style="max-width:49%; height:400px;">
 </div>
 <div class="thecap">Left: RNN learns to read house numbers. Right: RNN learns to paint house numbers.</div>
 </div>
@@ -99,7 +99,7 @@ As a working example, suppose we only had a vocabulary of four possible letters 
 Concretely, we will encode each character into a vector using 1-of-k encoding (i.e. all zero except for a single one at the index of the character in the vocabulary), and feed them into the RNN one at a time with the `step` function. We will then observe a sequence of 4-dimensional output vectors (one dimension per character), which we interpret as the confidence the RNN currently assigns to each character coming next in the sequence. Here's a diagram:
 
 <div class="imgcap">
-<img src="/assets/rnn/charseq.jpeg" width="70%"  style="border:none;">
+<img src="http://karpathy.github.io/assets/rnn/charseq.jpeg" width="70%"  style="border:none;">
 <div class="thecap">An example RNN with 4-dimensional input and output layers, and a hidden layer of 3 units (neurons). This diagram shows the activations in the forward pass when the RNN is fed the characters "hell" as input. The output layer contains confidences the RNN assigns for the next character (vocabulary is "h,e,l,o"); We want the green numbers to be high and red numbers to be low.</div>
 </div>
 
@@ -270,14 +270,14 @@ The model completely makes up the timestamp, id, and so on. Also, note that it c
 The results above suggest that the model is actually quite good at learning complex syntactic structures. Impressed by these results, my labmate ([Justin Johnson](http://cs.stanford.edu/people/jcjohns/)) and I decided to push even further into structured territories and got a hold of [this book](http://stacks.math.columbia.edu/) on algebraic stacks/geometry. We downloaded the raw Latex source file (a 16MB file) and trained a multilayer LSTM. Amazingly, the resulting sampled Latex *almost* compiles. We had to step in and fix a few issues manually but then you get plausible looking math, it's quite astonishing:
 
 <div class="imgcap">
-<img src="/assets/rnn/latex4.jpeg" style="border:none;">
+<img src="http://karpathy.github.io/assets/rnn/latex4.jpeg" style="border:none;">
 <div class="thecap">Sampled (fake) algebraic geometry. <a href="http://cs.stanford.edu/people/jcjohns/fake-math/4.pdf">Here's the actual pdf.</a></div>
 </div>
 
 Here's another sample:
 
 <div class="imgcap">
-<img src="/assets/rnn/latex3.jpeg" style="border:none;">
+<img src="http://karpathy.github.io/assets/rnn/latex3.jpeg" style="border:none;">
 <div class="thecap">More hallucinated algebraic geometry. Nice try on the diagram (right).</div>
 </div>
 
@@ -627,28 +627,28 @@ Another fun visualization is to look at the predicted distributions over charact
 The input character sequence (blue/green) is colored based on the *firing* of a randomly chosen neuron in the hidden representation of the RNN. Think about it as green = very excited and blue = not very excited (for those familiar with details of LSTMs, these are values between [-1,1] in the hidden state vector, which is just the gated and tanh'd LSTM cell state). Intuitively, this is visualizing the firing rate of some neuron in the "brain" of the RNN while it reads the input sequence. Different neurons might be looking for different patterns; Below we'll look at 4 different ones that I found and thought were interesting or interpretable (many also aren't):
 
 <div class="imgcap">
-<img src="/assets/rnn/under1.jpeg" style="border:none;">
+<img src="http://karpathy.github.io/assets/rnn/under1.jpeg" style="border:none;">
 <div class="thecap">
 The neuron highlighted in this image seems to get very excited about URLs and turns off outside of the URLs. The LSTM is likely using this neuron to remember if it is inside a URL or not.
 </div>
 </div>
 
 <div class="imgcap">
-<img src="/assets/rnn/under2.jpeg" style="border:none;">
+<img src="http://karpathy.github.io/assets/rnn/under2.jpeg" style="border:none;">
 <div class="thecap">
 The highlighted neuron here gets very excited when the RNN is inside the [[ ]] markdown environment and turns off outside of it. Interestingly, the neuron can't turn on right after it sees the character "[", it must wait for the second "[" and then activate. This task of counting whether the model has seen one or two "[" is likely done with a different neuron.
 </div>
 </div>
 
 <div class="imgcap">
-<img src="/assets/rnn/under3.jpeg" style="border:none;">
+<img src="http://karpathy.github.io/assets/rnn/under3.jpeg" style="border:none;">
 <div class="thecap">
 Here we see a neuron that varies seemingly linearly across the [[ ]] environment. In other words its activation is giving the RNN a time-aligned coordinate system across the [[ ]] scope. The RNN can use this information to make different characters more or less likely depending on how early/late it is in the [[ ]] scope (perhaps?).
 </div>
 </div>
 
 <div class="imgcap">
-<img src="/assets/rnn/under4.jpeg" style="border:none;">
+<img src="http://karpathy.github.io/assets/rnn/under4.jpeg" style="border:none;">
 <div class="thecap">
 Here is another neuron that has very local behavior: it is relatively silent but sharply turns off right after the first "w" in the "www" sequence. The RNN might be using this neuron to count up how far in the "www" sequence it is, so that it can know whether it should emit another "w", or if it should start the URL.
 </div>
@@ -659,8 +659,8 @@ Of course, a lot of these conclusions are slightly hand-wavy as the hidden state
 We can also condense this visualization by excluding the most likely predictions and only visualize the text, colored by activations of a cell. We can see that in addition to a large portion of cells that do not do anything interpretible, about 5% of them turn out to have learned quite interesting and interpretible algorithms:
 
 <div class="imgcap">
-<img src="/assets/rnn/pane1.png" style="border:none;max-width:100%">
-<img src="/assets/rnn/pane2.png" style="border:none;max-width:100%">
+<img src="http://karpathy.github.io/assets/rnn/pane1.png" style="border:none;max-width:100%">
+<img src="http://karpathy.github.io/assets/rnn/pane2.png" style="border:none;max-width:100%">
 <div class="thecap">
 </div>
 </div>
