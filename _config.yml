@@ -10,7 +10,7 @@ collections:
     output: true
   reprints:
     output: true
-  projects:
+  majors:
     output: true
   tweets:
     output: true
