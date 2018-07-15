@@ -18,6 +18,8 @@ layout: post
                       collection=site.reprints_cs_minor %}
 {% include index.html title='Posts' collection=site.posts %}
 {% include index.html title='Tabs' collection=site.tabs %}
+{% include index.html title='News Reprints'
+                      collection=site.reprints_news %}
 {% include index.html title='Reprints' collection=site.reprints %}
 
 **Thanks [Tom Preston-Werner](http://tom.preston-werner.com/) for TOC style.**
