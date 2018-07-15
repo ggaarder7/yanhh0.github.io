@@ -2,8 +2,9 @@
 title: My Music Suggestions
 ---
 
-*Some scores are available at
-[Tabs Column]({{ site.baseurl }}{% link _tabs/2018-07-07-index.md %}).*
+*Some scores are available at [Tabs][tabs-index].*
+
+[tabs-index]: {% link tabs_index.md %}
 
 ODDOPE
 - 一个人的沙漠
