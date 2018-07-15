@@ -37,8 +37,8 @@ done. Given any statement, the number it is converted to is known as
 its Gödel number. A simple example is the way in which English is
 stored as a sequence of numbers in computers using ASCII or Unicode:
 
-- The word HELLO is represented by 72-69-76-76-79 using decimal ASCII.
-- The logical statement x=y => y=x is represented by
+- The word `HELLO` is represented by 72-69-76-76-79 using decimal ASCII.
+- The logical statement `x=y => y=x` is represented by
   120-61-121-32-61-62-32-121-61-120 using decimal ASCII.
 
 ## Gödel's encoding
