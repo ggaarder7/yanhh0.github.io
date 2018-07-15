@@ -20,6 +20,8 @@ layout: post
 {% include index.html title='Tabs' collection=site.tabs %}
 {% include index.html title='News Reprints'
                       collection=site.reprints_news %}
+{% include index.html title='Contemporary Reprints'
+                      collection=site.reprints_contemp %}
 {% include index.html title='Reprints' collection=site.reprints %}
 
 **Thanks [Tom Preston-Werner](http://tom.preston-werner.com/) for TOC style.**
