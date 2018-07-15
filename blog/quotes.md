@@ -101,3 +101,6 @@ liaolikai's pyq 2018-07-07 Sa (in fact advertisement for SIGHT
 > Learned something new today…
 
 > Unless I'm understanding this incorrectly, ...
+
+> This is my blog, uses Jekyll. I was tired of bloated, slow Wordpress
+> that locked up all my content.
