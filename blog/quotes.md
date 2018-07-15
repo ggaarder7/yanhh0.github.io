@@ -104,3 +104,82 @@ liaolikai's pyq 2018-07-07 Sa (in fact advertisement for SIGHT
 
 > This is my blog, uses Jekyll. I was tired of bloated, slow Wordpress
 > that locked up all my content.
+
+[link](http://www.dxy.cn/bbs/topic/20455142)
+
+> 论坛首页  >  计算机与医学、生物学软件   >  资源分享 
+> 
+> sighman1983
+>
+> 神经外科
+>
+> 丁香园准中级站友
+>
+>  【资源】很好很强大的开源词典 Goldendict
+>
+> 话说国内的lingoes一直以来是我的最爱,然而几次升级之后，出现强制升级和
+> 广告的问题实在让人恼火，加上词库是封闭的，看上去也是盗用网上一些开源
+> 的词库作为自己用了，而且自己加点单词都不行，虽然作者承诺会放出词库的
+> 制作工具，然而这么多年了也没见动静，很无奈！因此网上搜索开源词典，先
+> 是stardic，但是好久没更新了，过时了，听说作者精神超常而且最近失踪了～～
+> 最后找到这款词典，试用了一段时间很不错，因此推荐给战友们。
+>
+> 优点：
+>
+> 俄国人做的词典，开源，多平台可以用。
+>
+> 词库多，可以支持StarDict词库，可以制作自己的词库，最nb的是可以支持
+> Babylon词库.BGL格式，google搜索和维基百科也集成到词典里面了。
+>
+> 缺点：
+>
+> 取词还不是很强大，在firefox下和64位系统下不能鼠标取词，对我老说没有大
+> 碍，我压根不喜欢取词窗口跳来跳去的，可以通过快捷键Ctrl+C+C取词。取词弹
+> 窗和主检索窗口联动不是很紧密快捷键不够多俄国人做的，官网好多俄语，交流
+> 有障碍
+> 
+> 总的来说还是很不错的词典，详细介绍在这 http://goldendict.org/
+> 
+> 需要的可以去主页下载 目前稳定版 1.01
+> http://goldendict.org/download.php
+>
+> 最新测试版在
+> https://github.com/goldendict/goldendict/wiki/Early-Access-Builds-for-Windows
+>
+> 词典好多 官方提供的链接 http://goldendict.org/dictionaries.php巴比伦
+>
+> 词典合集 http://www.verycd.com/topics/2761702/
+>
+> 分享几个不错的词典，词典直接放在 GoldenDict\content 路径下最好，因为
+> 这也是便携版的默认词典目录，顺便提一下，Windows下需要便携版可以直接
+> 在GoldenDict目录下建立一个名为portable的文件夹就可以了（不过没试过，
+> 不知道有什么不足)
+>
+> 首先是有名的湘雅医学词典，不知道是哪位前辈的功劳了，总之网上流传很广
+> 的词库了，虽然老了点，但是很有用，医学必备
+> 传到网盘了 http://u.115.com/file/aqbko3bf#
+> 
+> 第二个呢 Oxford Advanced Learners 8th Edition 和 MWCollegiate带图片和音频的，来自这个帖子 http://forum.ubuntu.org.cn/viewtopic.php?f=35&t=331910
+> 
+> 把里面的地址贴出来了，有需要的快点下载吧
+> 
+> En-En-MWCollegiate11.dsl.files.zip
+> http://u.115.com/file/b3ke75oc
+>
+> En-En-MWCollegiate11.dsl.dz
+> http://u.115.com/file/d2rvv8un
+>
+> En-En_Oxford_Advanced_Learners_Dictionary.dsl.files.zip
+> http://u.115.com/file/atolo6w9
+>
+> En-En_Oxford_Advanced_Learners_Dictionary.dsl.dz
+> http://u.115.com/file/ato0ejmm
+>
+> 最后是2010年的影响因子，做成词典了，很方便，需要的可以在附件下载。
+>
+> Goldendict也可用lingoes的语音库
+> http://www.lingoes.cn/zh/translator/speech.htm
+>
+> 索引的时间较长，要耐心等待。
+>
+> 2011-06-30 15:52
