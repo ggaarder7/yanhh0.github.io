@@ -12,3 +12,5 @@ title: Tweets
   ninth grade. It was played by Li Yundi, and the next pieces I
   listened is Yundi's Beethoven album, including Pathétique, Moonlight
   and Appassionata.
+- [Added SKI, SK and Iota to the Lambda Calculus page of Learn X in Y
+  Minutes](https://github.com/adambard/learnxinyminutes-docs/pull/3160)
