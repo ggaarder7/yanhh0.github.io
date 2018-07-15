@@ -1,7 +1,6 @@
 # Site settings
 title: "Yanhh's Home Page"
 email: yanhh0@163.com
-description: "Yanhh's Home Page"
 url: "http://yanhh0.github.io" # the base hostname & protocol for your site
 github_repo: 'https://github.com/yanhh0/yanhh0.github.io/'
 
