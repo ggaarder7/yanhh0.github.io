@@ -14,6 +14,8 @@ collections:
     output: true
   reprints_cs:
     output: true
+  reprints_cs_minor:
+    output: true
   tabs:
     output: true
   tweets:

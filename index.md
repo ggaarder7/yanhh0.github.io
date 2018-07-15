@@ -14,6 +14,8 @@ layout: post
                       collection=site.knowledges %}
 {% include index.html title='CS Reprints'
                       collection=site.reprints_cs %}
+{% include index.html title='CS Reprints (Minor)'
+                      collection=site.reprints_cs_minor %}
 {% include index.html title='Posts' collection=site.posts %}
 {% include index.html title='Tabs' collection=site.tabs %}
 {% include index.html title='Reprints' collection=site.reprints %}
