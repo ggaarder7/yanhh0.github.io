@@ -337,24 +337,24 @@ Usage:
 
 {% raw %}
 ```
-{{ site.baseurl }}{% post_url 2010-07-21-name-of-post %}
-{{ site.baseurl }}{% post_url /subdir/2010-07-21-name-of-post %}
+{% post_url 2010-07-21-name-of-post %}
+{% post_url /subdir/2010-07-21-name-of-post %}
 
-{{ site.baseurl }}{% link _collection/name-of-document.md %}
-{{ site.baseurl }}{% link _posts/2016-07-26-name-of-post.md %}
-{{ site.baseurl }}{% link news/index.html %}
-{{ site.baseurl }}{% link /assets/files/doc.pdf %}
+{% link _collection/name-of-document.md %}
+{% link _posts/2016-07-26-name-of-post.md %}
+{% link news/index.html %}
+{% link /assets/files/doc.pdf %}
 
-[Link to a document]({{ site.baseurl }}{% link _collection/name-of-document.md %})
-[Link to a post]({{ site.baseurl }}{% link _posts/2016-07-26-name-of-post.md %})
-[Link to a page]({{ site.baseurl }}{% link news/index.html %})
-[Link to a file]({{ site.baseurl }}{% link /assets/files/doc.pdf %})
+[Link to a document]({% link _collection/name-of-document.md %})
+[Link to a post]({% link _posts/2016-07-26-name-of-post.md %})
+[Link to a page]({% link news/index.html %})
+[Link to a file]({% link /assets/files/doc.pdf %})
 ```
 {% endraw %}
 
 {% raw %}
-(Including `{{ site.baseurl }}` is optional — it depends on whether
-you want to preface the page URL with the baseurl value.)
+To generate an absolute URL, append `{{ site.baseurl }}` before
+`{% ... %}`, e.g. `{{ site.baseurl }}{% link news/index.html %}`.
 
 If you’re unsure of the path, add `{{ page.path }}` to the page and it
 will display the path.
