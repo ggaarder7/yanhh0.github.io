@@ -16,6 +16,11 @@
 - [Liquid template language](http://shopify.github.io/liquid/),
   [Github](https://github.com/Shopify/shopify.github.com)
 
+**Education**
+
+- [Lists of universities and colleges by country -
+  Wikipedia](https://en.wikipedia.org/wiki/Lists_of_universities_and_colleges_by_country)
+
 **Languages**
 
 - [italki: Ask language questions to native speakers here, you can
