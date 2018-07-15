@@ -94,3 +94,6 @@ liaolikai's pyq 2018-07-07 Sa (in fact advertisement for SIGHT
 > 有些事，我们明知道是错的，也要去坚持，因为不甘心；有些人，我们明知道
 > 是爱的，也要去放弃，因为没结局；有时候，我们明知道没路了，却还在前行，
 > 因为习惯了。
+
+> Compass is charityware. If you love it, please donate on our behalf
+> at http://umdf.org/compass Thanks!
