@@ -1,5 +1,5 @@
 ---
-title: 小脚本：华为截图整理
+title: 'Script: Screenshot Cluster'
 tags: [ script, python, huawei, sshot, starred, sort ]
 ---
 
