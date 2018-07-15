@@ -1,9 +1,18 @@
 <table>
   <tr><td/><td/><th align='left'>{{include.title}}</th></tr>
-{% for item in include.collection %}<tr>
-  <td align='right'>{{ item.date | date: "%b %-d, %Y" }}</td>
-  <td>&raquo;</td>
-  <td><a href="{{ item.url | prepend: site.baseurl}}">{% if item.author %}
-    {{ item.author }}: {% endif %} {{ item.title }}</a></td>
-</tr>{% endfor %}
+  {% for item in include.collection %}
+  <tr>
+    <td align='right' class='toc-date'>
+      {{ item.date | date: "%b %-d, %Y" }}
+    </td>
+    <td>&raquo;</td>
+    <td class='toc-title'>
+      <a href="{{ item.url | prepend: site.baseurl}}">
+        {% if item.author %}
+          {{ item.author }}:
+        {% endif %} {{ item.title }}
+      </a>
+    </td>
+  </tr>
+  {% endfor %}
 </table>
