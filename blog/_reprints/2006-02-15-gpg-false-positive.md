@@ -1,5 +1,5 @@
 ---
-title: [Announce] False positive signature verification in GnuPG
+title: '[Announce] False positive signature verification in GnuPG'
 author: Werner Koch
 source: https://lists.gnupg.org/pipermail/gnupg-announce/2006q1/000211.html
 ---
