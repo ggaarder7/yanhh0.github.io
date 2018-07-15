@@ -5,6 +5,7 @@ layout: post
 
 - 小鹤双拼是我最近学过最有用的东西之一了！！！打字的时候拿着对照表忘了就
 查一周就学会了！！投入产出比极大！！！
+- [Tweets]({% link blog/tweets.md %}), where short stuff goes.
 
 {% include index.html title='Major Posts' collection=site.majors %}
 {% include index.html title='Posts' collection=site.posts %}
