@@ -48,7 +48,7 @@ unique natural number to each basic symbol in the formal language of
 arithmetic with which he was dealing. 
 
 To encode an entire formula, which is a sequence of symbols, Gödel
-used the following system. Given a sequence $(x_1,x_2,x_3,...,x_n)$ of
+used the following system. Given a sequence $$(x_1,x_2,x_3,...,x_n)$$ of
 positive integers, the Gödel encoding of the sequence is the product
 of the first n primes raised to their corresponding values in the
 sequence:
