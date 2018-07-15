@@ -6,6 +6,8 @@ github_repo: 'https://github.com/yanhh0/yanhh0.github.io/'
 
 collections_dir: blog
 collections:
+  knowledges:
+    output: true
   majors:
     output: true
   reprints:
