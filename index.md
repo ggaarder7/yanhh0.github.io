@@ -11,9 +11,10 @@ no_mathjax: true
 - [My Shell Cheatsheet]({% link blog/shell-cheatsheet.md %})
 
 {% include index.html title='Major Posts' collection=site.majors %}
+{% include index.html title='CS Reprints' collection=site.reprints_cs %}
+{% include index.html title='Knowledges' collection=site.knowledges %}
 {% include index.html title='Posts' collection=site.posts %}
 {% include index.html title='Tabs' collection=site.tabs %}
-{% include index.html title='CS Reprints' collection=site.reprints_cs %}
 {% include index.html title='Reprints' collection=site.reprints %}
 
 **Thanks [Tom Preston-Werner](http://tom.preston-werner.com/) for TOC style.**
