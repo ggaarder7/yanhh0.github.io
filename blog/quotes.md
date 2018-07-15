@@ -97,3 +97,5 @@ liaolikai's pyq 2018-07-07 Sa (in fact advertisement for SIGHT
 
 > Compass is charityware. If you love it, please donate on our behalf
 > at http://umdf.org/compass Thanks!
+
+> Learned something new today…
