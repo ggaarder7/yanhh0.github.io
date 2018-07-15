@@ -61,4 +61,4 @@ informations (thanks Jekyll and Markdown, I just grabbed the raw
 source from its Github repository to my reprints collection in one
 minute).
 
-[user-blog-include]: {% link _reprints/2014-11-13-jekyll-includes-are-functions.md %}
+[user-blog-include]: {% link _reprints_cs/2014-11-13-jekyll-includes-are-functions.md %}
