@@ -7,6 +7,7 @@ layout: post
 查一周就学会了！！投入产出比极大！！！
 - [My Tweets]({% link blog/tweets.md %}), where short stuff goes.
 - [My Emacs Cheatsheet]({% link blog/emacs-cheatsheet.md %})
+- [My Shell Cheatsheet]({% link blog/shell-cheatsheet.md %})
 
 {% include index.html title='Major Posts' collection=site.majors %}
 {% include index.html title='Posts' collection=site.posts %}
