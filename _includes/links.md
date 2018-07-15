@@ -16,6 +16,11 @@
 - [Liquid template language](http://shopify.github.io/liquid/),
   [Github](https://github.com/Shopify/shopify.github.com)
 
+**Machine Learning**
+- [Andrej Karpathy's char-rnn](https://github.com/karpathy/char-rnn),
+  [blog](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+- [Weideman's char-rnn: talk like me](https://hjweide.github.io/char-rnn)
+
 **Education**
 
 - [Lists of universities and colleges by country -
